@@ -25,13 +25,13 @@ const Projects = () => {
       icon: <a target="_blank" rel="noopener noreferrer" alt="Github link" href="https://github.com/afroz23/chat-room-app" ><FaGithub className="commonIcons" /></a>,
       icon2: <a target="_blank" rel="noopener noreferrer" alt="Deploy link" href="https://chat-room-application.netlify.app/" ><GrDeploy className="commonIcon" /></a>,
       heading: "Chat Room App",
-      text: "Lorem Ipsum is simply dummy text of the printing typesetting industry. simply dummy",
+      text: "This ",
     },
     {
       id: 4,
       icon: <a target="_blank" rel="noopener noreferrer" alt="Github link" href="https://github.com/afroz23/Guess-The-Number" ><FaGithub className="commonIcons" /></a>,
       heading: "Guess The Number",
-      text: "It is a python based programme where the computer randomly generates a number between 0 and 20. The user needs to guess the number. If the user guesses wrong/right will get some message.",
+      text: "It is a python based programme where the computer randomly generates a number between 0 and 20. The user needs to guess the number.",
     },
     {
       id: 5,
