@@ -41,8 +41,10 @@ body {
 .navbar__right,
 .navbar-item {
   display: flex;
+  justify-content: flex-end;
   flex-wrap: wrap;
   list-style-type: none;
+  align-items: flex-end;
 }
 
 a {
@@ -506,17 +508,17 @@ a:active {
     width: 100%;
   }
   .navbar__right {
+    display: flex;
     flex-direction: column;
-    width: 100%;
     align-items: center;
+    width: 100%;
     background: #fff;
-    background-color: transparent(40%);
     opacity: 0.96;
     position: fixed;
     top: 0;
     left: 0;
-    display: flex;
-    transform: translateX(-500px);
+    background-color: transparent(40%);
+    transform: translateX(-700px);
   }
   .navbar__right {
     display: block;

@@ -33,8 +33,8 @@ const About = () => {
               I am also interested in Competitive Coding.
               </div>
               <div className="about__info-p2">
-                I'm most passionate to solve real life problem through Programming and my goal is to pursue this passion within the field of Software Engineering.
-                In my free time, I like to do Competitive Coding and to learn new algorithms.
+                {/* I'm most passionate to solve real life problem through Programming and my goal is to pursue this passion within the field of Software Engineering.
+                In my free time, I like to do Competitive Coding and to learn new algorithms. */}
               </div>
               <div className="info__contacts">
                 <div className="row">

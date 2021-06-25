@@ -10,12 +10,14 @@ const Nav = () => {
     <nav className="navbar">
       <div className="container">
         <div className="navbar__container">
-          <ul className="navbar__left">
-            <a href="#home" className="navbar__left-logo">
-               <FaCode/>
-            </a>
-          </ul>
-            <div className="navbar__right" style={{transform:state?"translateX(0px)": "translateX(-500px)"}}>
+          <div>
+            <ul className="navbar__left">
+              <a href="#home" className="navbar__left-logo">
+                <FaCode/>
+              </a>
+            </ul>
+          </div>
+            <div className="navbar__right" style={{transform:state?"translateX(0px)": "translateX(-700px)"}}>
             <Anchor className="items">
                <Link className="navbar-item" href="#home" title="Home" />
                <Link className="navbar-item" href="#projects" title="Projects" />
@@ -24,9 +26,9 @@ const Nav = () => {
                <Link className="navbar-item" href="#contact" title="Contact" />               
             </Anchor>
             </div>
-          <div className="toggle">
-            <FaAlignJustify onClick={() => setState(!state)}></FaAlignJustify>
-          </div>
+        </div>
+        <div className="toggle">
+          <FaAlignJustify onClick={() => setState(!state)}></FaAlignJustify>
         </div>
       </div>
     </nav>
