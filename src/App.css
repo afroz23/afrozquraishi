@@ -281,8 +281,8 @@ a:active {
 
 .projects__box {
   display: block;
-  height: 280px;
-  width: 360px;
+  height: 16rem;
+  width: 22.5rem;
   padding: 40px;
   background: #fff;
   color: #333333;
@@ -370,46 +370,6 @@ a:active {
   margin: 10px 0;
 }
 
-/* Skills */
-.prices {
-  width: 100%;
-  padding: 100px 0;
-  background: #c4ae78;
-}
-.price {
-  background: #6f5b3e;
-  padding: 25px;
-  border-radius: 8px;
-  margin: 35px 20px;
-  color: #fff;
-  text-align: center;
-}
-.priceHeading {
-  font-size: 24px;
-  font-weight: 500;
-  margin-bottom: 15px;
-}
-.price__rs {
-  font-size: 70px;
-  font-weight: 200;
-  margin-bottom: 15px;
-}
-.price__rs span {
-  font-size: 25px;
-}
-.price ul {
-  list-style-type: none;
-}
-.price ul li {
-  margin: 5px 0;
-  border-bottom: 1px solid #3c3c3c;
-  font-size: 14px;
-  padding: 15px 0;
-}
-.price__btn {
-  margin-top: 40px;
-}
-
 /* contact */
 .contact {
   display: flex;
@@ -452,6 +412,9 @@ a:active {
   align-content: flex-end;
   align-items: flex-end;
   width: 100%;
+}
+.last-footer-child {
+  display: flex;
 }
 .last-anchor {
   margin-left: 5px;
@@ -505,7 +468,7 @@ a:active {
     width: 100%;
   }
   .col-4 {
-    width: 100%;
+    width: 100vh;
   }
   .navbar__right {
     display: flex;
@@ -555,6 +518,9 @@ a:active {
   }
   .main-iconss {
     display: flex;
+  }
+  .projects {
+    padding: 0px 0;
   }
 }
 

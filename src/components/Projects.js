@@ -40,6 +40,12 @@ const Projects = () => {
       heading: "Portfolio",
       text:"This is my portfolio created with Reactjs.",
     },
+    {
+      id: 6,
+      icon: <a target="_blank" rel="noopener noreferrer" alt="Github link" href="https://afrozquraishi.herokuapp.com" ><FaGithub className="commonIcons" /></a>,
+      icon2: <a target="_blank" rel="noopener noreferrer" alt="Deploy link" href="https://afrozquraishi.herokuapp.com" ><GrDeploy className="commonIcon" /></a>,
+      heading: "Comming soon....",
+    },
   ]);
   return (
     <div id="projects" className="projects">
