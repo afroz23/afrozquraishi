@@ -5,7 +5,7 @@ import { Anchor } from 'antd';
 const { Link } = Anchor;
 
 const Nav = () => {
-  const [state, setState] = React.useState(true);
+  const [state, setState] = React.useState(false);
   return (
     <nav className="navbar">
       <div className="container">
@@ -15,8 +15,7 @@ const Nav = () => {
                <FaCode/>
             </a>
           </ul>
-          {state ? (
-            <div className="navbar__right">
+            <div className="navbar__right" style={{transform:state?"translateX(0px)": "translateX(-500px)"}}>
             <Anchor className="items">
                <Link className="navbar-item" href="#home" title="Home" />
                <Link className="navbar-item" href="#projects" title="Projects" />
@@ -25,13 +24,10 @@ const Nav = () => {
                <Link className="navbar-item" href="#contact" title="Contact" />               
             </Anchor>
             </div>
-          ) : (
-            ""
-          )}
+          <div className="toggle">
+            <FaAlignJustify onClick={() => setState(!state)}></FaAlignJustify>
+          </div>
         </div>
-      </div>
-      <div className="toggle" onClick={() => setState(!state)}>
-        <FaAlignJustify />
       </div>
     </nav>
   );

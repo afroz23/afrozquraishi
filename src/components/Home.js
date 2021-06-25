@@ -31,8 +31,6 @@ const Home = () => {
                   <a className="header_anchor" target="_blank" rel="noopener noreferrer" href="https://twitter.com/AfrozQuraishi_"><FaTwitter className="headerIcon" /></a>
                   <a className="header_anchor" target="_blank" rel="noopener noreferrer"href="https://www.instagram.com/afrozquraishi_/"><FaInstagram className="headerIcon" /></a>
                 </div>
-                <div className="resume__buttons">
-                </div>
               </div>
             </div>
           </div>

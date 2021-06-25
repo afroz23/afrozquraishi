@@ -25,7 +25,7 @@ const Projects = () => {
       icon: <a target="_blank" rel="noopener noreferrer" alt="Github link" href="https://github.com/afroz23/chat-room-app" ><FaGithub className="commonIcons" /></a>,
       icon2: <a target="_blank" rel="noopener noreferrer" alt="Deploy link" href="https://chat-room-application.netlify.app/" ><GrDeploy className="commonIcon" /></a>,
       heading: "Chat Room App",
-      text: "This ",
+      text: "In this Application Admin provides you the username and password.It is to allows users to chat with each other.",
     },
     {
       id: 4,
