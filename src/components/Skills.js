@@ -5,40 +5,8 @@ const Skills = () => {
     subHeading: "My skills",
     text:"These all are my skills.",
   });
-  const [state] = React.useState([
-    {
-      id: 1,
-      heading: "Basic",
-      price: 50,
-      msg1: "5GB Storage Space",
-      msg2: "20GB Monthly Bandwidth",
-      msg3: "My SQL Databases",
-      msg4: "100 Email Account",
-      msg5: "10 Free Domain Names",
-    },
-    {
-      id: 2,
-      heading: "Standard",
-      price: 80,
-      msg1: "5GB Storage Space",
-      msg2: "20GB Monthly Bandwidth",
-      msg3: "My SQL Databases",
-      msg4: "100 Email Account",
-      msg5: "10 Free Domain Names",
-    },
-    {
-      id: 3,
-      heading: "Premium",
-      price: 160,
-      msg1: "5GB Storage Space",
-      msg2: "20GB Monthly Bandwidth",
-      msg3: "My SQL Databases",
-      msg4: "100 Email Account",
-      msg5: "10 Free Domain Names",
-    },
-  ]);
   return (
-    <div id="skills" className="prices">
+    <div id="skills" className="skills">
       <div className="container">
         <div className="common">
           <h1 className="mainHeader">{header.subHeading}</h1>
@@ -46,33 +14,33 @@ const Skills = () => {
           <div className="commonBorder"></div>
         </div>
         <div className="row">
-          {state.map((prices) => (
-            <div className="col-4" key={prices.id}>
-              <div className="price">
-                <div className="priceHeading">${prices.heading}</div>
-                <div className="price__rs">
-                  <span>$</span>
-                  {prices.price}
-                </div>
-                <ul>
-                  <li>{prices.msg1}</li>
-                  <li>{prices.msg2}</li>
-                  <li>{prices.msg3}</li>
-                  <li>{prices.msg4}</li>
-                  <li>{prices.msg5}</li>
-                </ul>
-                <div className="price__btn">
-                  <a href="#home" className="btn btn-outline">
-                    Purchase
-                  </a>
-                </div>
-              </div>
-            </div>
-          ))}
+          <ul className="skills-list">
+            <li className="skills-categary">PROGRAMMING LANGUAGES</li>
+            <ul><li>C </li><li>C++</li><li>JavaScript</li></ul>
+            
+            <li className="skills-categary">FAMILIAR WITH:</li>
+            <ul><li>Java</li><li>Python</li></ul>
+            
+            <li className="skills-categary">TECHNOLOGIES AND FRAMEWORKS</li>
+            <ul><li>ReactJs</li><li>Redux</li><li>Node.js</li><li>Express.js</li><li>Bootstrap</li><li>CSS </li><li>MongoDB</li><li>Firebaset</li><li>Photoshop</li></ul>
+            
+            <li className="skills-categary">TOOLS</li>
+            <ul><li>Git</li><li>Github</li><li>VSCode</li><li>Linux</li><li>Heroku</li><li>Netlify</li></ul>
+            
+          </ul>
         </div>
       </div>
     </div>
   );
-};
+}
 
 export default Skills;
+
+// 
+// 
+// 
+// 
+// ReactJs+Redux •Node.js  Express.js•Bootstrap •CSS MongoDB •Firebase •Photoshop
+// TOOLS
+// Git • Github • VSCode • Linux
+// Heroku •Netlify

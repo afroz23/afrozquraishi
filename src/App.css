@@ -27,10 +27,9 @@ body {
 
 .navbar__container {
   display: flex;
-  height: 70px;
-  flex-wrap: wrap;
-  align-items: center;
   justify-content: space-between;
+  align-items: center;
+  height: 70px;
 }
 .navbar__left-logo {
   color: #ff4321;
@@ -369,7 +368,24 @@ a:active {
 .info__contacts .col-6 {
   margin: 10px 0;
 }
-
+/* skills*/
+.skills {
+  width: 100%;
+  padding: 100px 0;
+  background: #b3bbf2;
+}
+.skills-list {
+  display: flex;
+  flex-direction: column;
+  text-decoration: none;
+  list-style-type: none;
+}
+.skills-categary {
+  font-size: 29px;
+}
+li {
+  list-style-type: none;
+}
 /* contact */
 .contact {
   display: flex;
@@ -436,10 +452,6 @@ a:active {
   display: none;
 }
 @media (max-width: 765px) {
-  .typed-text {
-    font-size: 1em;
-  }
-
   .container {
     width: 100%;
     padding: 0px 60px;
@@ -470,28 +482,20 @@ a:active {
   .col-4 {
     width: 100vh;
   }
-  .navbar__right {
+  .navbar__left-logo {
     display: flex;
-    flex-direction: column;
-    align-items: center;
-    width: 100%;
-    background: #fff;
-    opacity: 0.96;
-    position: fixed;
+  }
+  .navbar__right {
+    position: absolute;
+    display: block;
     top: 0;
     left: 0;
-    background-color: transparent(40%);
-    transform: translateX(-700px);
-  }
-  .navbar__right {
-    display: block;
-
-    align-items: center;
-  }
-  .items {
-    align-items: center;
-    text-decoration: none;
-    list-style-type: none;
+    height: 100vh;
+    background: #fff;
+    padding-left: 49px;
+    width: 50%;
+    transition: 0.5 ease-in-out;
+    transform: translateX(-500px);
   }
   .toggle {
     display: flex;
@@ -525,11 +529,11 @@ a:active {
 }
 
 .typed-text {
-  font-size: 1.8rem;
+  font-size: 1.5rem;
   color: #333334;
   display: flex;
   justify-content: center;
-  margin-bottom: 10px;
+  margin-bottom: 20px;
 }
 
 .header-font-size {

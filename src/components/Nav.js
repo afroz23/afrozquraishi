@@ -17,15 +17,16 @@ const Nav = () => {
               </a>
             </ul>
           </div>
-            <div className="navbar__right" style={{transform:state?"translateX(0px)": "translateX(-700px)"}}>
-            <Anchor className="items">
+          
+            <Anchor className="navbar__right" style={{transform:state?"translateX(0px)": "translateX(-500px)"}}>
                <Link className="navbar-item" href="#home" title="Home" />
                <Link className="navbar-item" href="#projects" title="Projects" />
                <Link className="navbar-item" href="#about" title="About"/>
                <Link className="navbar-item" href="#skills" title="Skills" />
-               <Link className="navbar-item" href="#contact" title="Contact" />               
+               <Link className="navbar-item" href="#contact" title="Contact" />
+               <Link className="navbar-item" href="https://drive.google.com/file/d/1z-wjgOCZORI6fIPOa7aBESVSohO_UC0M/view?usp=sharing" title="Resume" />              
             </Anchor>
-            </div>
+            
         </div>
         <div className="toggle">
           <FaAlignJustify onClick={() => setState(!state)}></FaAlignJustify>
