@@ -18,13 +18,12 @@ const Nav = () => {
             </ul>
           </div>
           
-            <Anchor className="navbar__right" style={{transform:state?"translateX(0px)": "translateX(-500px)"}}>
+            <Anchor className="navbar__right" style={{transform:state?"translateX(0px)": ""}}>
                <Link className="navbar-item" href="#home" title="Home" />
                <Link className="navbar-item" href="#projects" title="Projects" />
                <Link className="navbar-item" href="#about" title="About"/>
                <Link className="navbar-item" href="#skills" title="Skills" />
                <Link className="navbar-item" href="#contact" title="Contact" />
-               <Link className="navbar-item" href="https://drive.google.com/file/d/1z-wjgOCZORI6fIPOa7aBESVSohO_UC0M/view?usp=sharing" title="Resume" />              
             </Anchor>
             
         </div>

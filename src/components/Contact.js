@@ -21,10 +21,11 @@ const Contact = () => {
             
                 <div className="last-footer">
                   <div className="last-footer-child">
-                    <div>© 2021, Built with </div>
-                    <div><a target="_blank" rel="noopener noreferrer" href="https://reactjs.org/">React</a></div>
+                    <div>© 2021, Built with</div>
+                    <div><a href="https://reactjs.org/">React</a></div>
                   </div>
                 </div>
+                
             </div>
           </div>
         </div>

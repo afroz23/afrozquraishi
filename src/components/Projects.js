@@ -16,14 +16,14 @@ const Projects = () => {
     {
       id: 2,
       icon: <a target="_blank" rel="noopener noreferrer" alt="Github link" href="https://github.com/afroz23/Todo-App" ><FaGithub className="commonIcons" /></a>,
-      icon2: <a target="_blank" rel="noopener noreferrer" alt="Deploy link" href="https://afroz23.github.io/Todo-App/" ><GrDeploy className="commonIcon" /></a>,
+      icon2: <a className="deploy-link" target="_blank" rel="noopener noreferrer" alt="Deploy link" href="https://afroz23.github.io/Todo-App/" ><GrDeploy className="commonIcon" /></a>,
       heading: "Todo App",
       text:"A simple Todo app using ReactJS.You can Add, Edit, Delete element in the list.",
     },
     {
       id: 3,
       icon: <a target="_blank" rel="noopener noreferrer" alt="Github link" href="https://github.com/afroz23/chat-room-app" ><FaGithub className="commonIcons" /></a>,
-      icon2: <a target="_blank" rel="noopener noreferrer" alt="Deploy link" href="https://chat-room-application.netlify.app/" ><GrDeploy className="commonIcon" /></a>,
+      icon2: <a className="deploy-link" target="_blank" rel="noopener noreferrer" alt="Deploy link" href="https://chat-room-application.netlify.app/" ><GrDeploy className="commonIcon" /></a>,
       heading: "Chat Room App",
       text: "In this Application Admin provides you the username and password.It is to allows users to chat with each other.",
     },
@@ -36,15 +36,15 @@ const Projects = () => {
     {
       id: 5,
       icon: <a target="_blank" rel="noopener noreferrer" alt="Github link" href="https://github.com/afroz23/afrozquraishi" ><FaGithub className="commonIcons" /></a>,
-      icon2: <a target="_blank" rel="noopener noreferrer" alt="Deploy link" href="https://afrozquraishi.herokuapp.com/" ><GrDeploy className="commonIcon" /></a>,
+      icon2: <a className="deploy-link" target="_blank" rel="noopener noreferrer" alt="Deploy link" href="https://afrozquraishi.herokuapp.com/" ><GrDeploy className="commonIcon" /></a>,
       heading: "Portfolio",
       text:"This is my portfolio created with Reactjs.",
     },
     {
       id: 6,
       icon: <a target="_blank" rel="noopener noreferrer" alt="Github link" href="https://afrozquraishi.herokuapp.com" ><FaGithub className="commonIcons" /></a>,
-      icon2: <a target="_blank" rel="noopener noreferrer" alt="Deploy link" href="https://afrozquraishi.herokuapp.com" ><GrDeploy className="commonIcon" /></a>,
-      heading: "Comming soon....",
+      icon2: <a className="deploy-link" target="_blank" rel="noopener noreferrer" alt="Deploy link" href="https://afrozquraishi.herokuapp.com" ><GrDeploy className="commonIcon" /></a>,
+      heading: "Coming Soon...",
     },
   ]);
   return (

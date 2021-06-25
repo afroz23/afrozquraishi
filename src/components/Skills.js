@@ -15,16 +15,16 @@ const Skills = () => {
         </div>
         <div className="row">
           <ul className="skills-list">
-            <li className="skills-categary">PROGRAMMING LANGUAGES</li>
+            <li className="skills-category">PROGRAMMING LANGUAGES</li>
             <ul><li>C </li><li>C++</li><li>JavaScript</li></ul>
             
-            <li className="skills-categary">FAMILIAR WITH:</li>
+            <li className="skills-category">FAMILIAR WITH:</li>
             <ul><li>Java</li><li>Python</li></ul>
             
-            <li className="skills-categary">TECHNOLOGIES AND FRAMEWORKS</li>
+            <li className="skills-category">TECHNOLOGIES AND FRAMEWORKS</li>
             <ul><li>ReactJs</li><li>Redux</li><li>Node.js</li><li>Express.js</li><li>Bootstrap</li><li>CSS </li><li>MongoDB</li><li>Firebaset</li><li>Photoshop</li></ul>
             
-            <li className="skills-categary">TOOLS</li>
+            <li className="skills-category">TOOLS</li>
             <ul><li>Git</li><li>Github</li><li>VSCode</li><li>Linux</li><li>Heroku</li><li>Netlify</li></ul>
             
           </ul>
