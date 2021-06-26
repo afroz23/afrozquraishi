@@ -121,7 +121,7 @@ body {
 }
 
 .col-4 {
-  width: 33.33333333333333%;
+  width: flex;
 }
 
 /* header */
@@ -159,7 +159,7 @@ body {
   font-weight: 1800;
 }
 .typed-text {
-  font-size: 1.5rem;
+  font-size: 1.8rem;
   color: #333334;
   display: flex;
   justify-content: center;
@@ -343,7 +343,6 @@ body {
 
 .main-iconss a .commonIcon {
   font-size: 35px;
-  margin-bottom: 15px;
 }
 
 .main-iconss {
@@ -571,15 +570,16 @@ li {
   transition: all 0.5 ease-in-out;
   display: none;
 }
-@media (max-width: 1200px) {
-  .col-4 {
-    width: 50%;
-  }
+.container {
+  padding-left: 20px;
 }
 @media (max-width: 765px) {
   .container {
     width: 100%;
-    padding: 0px 60px;
+    padding: 0px 30px;
+  }
+  .typed-text {
+    font-size: 1.3rem;
   }
   .header__content {
     padding-top: 80px;
@@ -595,16 +595,19 @@ li {
   }
   .col-6 {
     width: 100%;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    flex-wrap: wrap;
+    margin: 0;
+  }
+  .about {
+    margin: 0;
+    padding: 0;
   }
   .col-3 {
     width: 100%;
   }
   .col-4 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
     width: 100%;
   }
   .navbar__left-logo {
@@ -648,9 +651,6 @@ li {
   .h-650 {
     height: auto;
   }
-  .main-iconss {
-    display: flex;
-  }
   .info__contacts .row .col-6 {
     display: flex;
     justify-content: flex-start;
@@ -665,5 +665,42 @@ li {
     display: flex;
     justify-content: center;
     align-items: center;
+  }
+  .projects__box {
+    display: block;
+    height: 11rem;
+    width: 14rem;
+    padding: 10px;
+    margin-top: 20px;
+    margin-bottom: 10px;
+  }
+  .projects__box-header {
+    font-size: 15px;
+    font-weight: 500;
+    margin-bottom: 10px;
+  }
+  .projects__header {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 0;
+  }
+  .projects__box-p {
+    font-size: 9px;
+  }
+  .commonIcons {
+    margin-bottom: 5px;
+  }
+  .contactCircles a {
+    margin: 0;
+    padding: 0;
+    font-size: 15px;
+  }
+  .last-footer a {
+    font-size: 16px;
+  }
+  .projects .container {
+    padding: 10px;
   }
 }

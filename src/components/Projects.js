@@ -11,7 +11,7 @@ const Projects = () => {
       id: 1,
       icon: <a target="_blank" rel="noopener noreferrer" alt="Github link" href="https://github.com/afroz23/linked-list" ><FaGithub className="commonIcons" /></a>,
       heading: "Linked List",
-      text: "In this project I am trying to code all the functionality of linked list in one programme in using c++.",
+      text: "In this project I am trying to code all the functionality of linked list using c++.",
     },
     {
       id: 2,
