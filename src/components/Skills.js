@@ -1,4 +1,8 @@
 import React from "react";
+import { FaJava,FaPython,FaGitAlt,FaGithub,FaLinux,FaReact,FaNodeJs,FaBootstrap} from "react-icons/fa";
+import { SiC,SiCplusplus,SiAdobephotoshop,SiFirebase,SiHeroku,SiNetlify,SiHtml5,SiVisualstudiocode,SiCss3,SiMongodb,SiRedux} from "react-icons/si";
+import {GiSightDisabled} from "react-icons/gi";
+import {DiJavascript1} from "react-icons/di";
 
 const Skills = () => {
   const [header] = React.useState({
@@ -15,17 +19,39 @@ const Skills = () => {
         </div>
         <div className="row">
           <ul className="skills-list">
-            <li className="skills-category">PROGRAMMING LANGUAGES</li>
-            <ul><li>C </li><li>C++</li><li>JavaScript</li></ul>
             
-            <li className="skills-category">FAMILIAR WITH:</li>
-            <ul><li>Java</li><li>Python</li></ul>
+            <li className="category">PROGRAMMING LANGUAGES</li>
+              <ul className="skills-category">
+                <li className="pro-icons"><div className="si-icons"><SiC/></div><p>C</p> </li>
+                <li className="pro-icons"><div className="si-icons"><SiCplusplus/></div><p>C++</p></li>
+                <li className="pro-icons"><div className="si-icons"><DiJavascript1/></div><p>Javascript</p></li>
+                <li className="pro-icons"><div className="si-icons"><FaJava/></div><p>Java</p></li>
+                <li className="pro-icons"><div className="si-icons"><FaPython/></div><p>Python</p></li>
+              </ul>
             
-            <li className="skills-category">TECHNOLOGIES AND FRAMEWORKS</li>
-            <ul><li>ReactJs</li><li>Redux</li><li>Node.js</li><li>Express.js</li><li>Bootstrap</li><li>CSS </li><li>MongoDB</li><li>Firebaset</li><li>Photoshop</li></ul>
+            <li className="category">TECHNOLOGIES AND FRAMEWORKS</li>
+            <ul className="skills-category">
+              <li className="pro-icons"><div className="si-icons"><SiHtml5/></div><p>Html</p></li>
+              <li className="pro-icons"><div className="si-icons"><SiCss3/></div><p>CSS</p></li>
+              <li className="pro-icons"><div className="si-icons"><FaReact/></div><p>ReactJs</p></li>
+              <li className="pro-icons"><div className="si-icons"><SiRedux/></div><p>Redux</p></li>
+              <li className="pro-icons"><div className="si-icons"><FaNodeJs/></div><p>Node.js</p></li>
+              <li className="pro-icons"><div className="si-icons"><GiSightDisabled/></div><p>Express.js</p></li>
+              <li className="pro-icons"><div className="si-icons"><SiMongodb/></div><p>MongoDB</p></li>
+              <li className="pro-icons"><div className="si-icons"><FaBootstrap/></div><p>Bootstrap</p></li>
+              <li className="pro-icons"><div className="si-icons"><SiFirebase/></div><p>Firebase</p></li>
+              <li className="pro-icons"><div className="si-icons"><SiAdobephotoshop/></div><p>Photoshop</p></li>
+            </ul>
             
-            <li className="skills-category">TOOLS</li>
-            <ul><li>Git</li><li>Github</li><li>VSCode</li><li>Linux</li><li>Heroku</li><li>Netlify</li></ul>
+            <li className="category">TOOLS</li>
+            <ul className="skills-category">
+              <li className="pro-icons"><div className="si-icons"><FaGitAlt/></div><p>Git</p></li>
+              <li className="pro-icons"><div className="si-icons"><FaGithub/></div><p>Github</p></li>
+              <li className="pro-icons"><div className="si-icons"><SiVisualstudiocode/></div><p>VsCode</p></li>
+              <li className="pro-icons"><div className="si-icons"><FaLinux/></div><p>Linux</p></li>
+              <li className="pro-icons"><div className="si-icons"><SiHeroku/></div><p>Heroku</p></li>
+              <li className="pro-icons"><div className="si-icons"><SiNetlify/></div><p>Netlify</p></li>
+            </ul>
             
           </ul>
         </div>
@@ -35,12 +61,3 @@ const Skills = () => {
 }
 
 export default Skills;
-
-// 
-// 
-// 
-// 
-// ReactJs+Redux •Node.js  Express.js•Bootstrap •CSS MongoDB •Firebase •Photoshop
-// TOOLS
-// Git • Github • VSCode • Linux
-// Heroku •Netlify
