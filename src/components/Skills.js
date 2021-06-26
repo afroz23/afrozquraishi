@@ -24,19 +24,19 @@ const Skills = () => {
               <ul className="skills-category">
                 <li className="pro-icons"><div className="si-icons"><SiC/></div><p>C</p> </li>
                 <li className="pro-icons"><div className="si-icons"><SiCplusplus/></div><p>C++</p></li>
-                <li className="pro-icons"><div className="si-icons"><DiJavascript1/></div><p>Javascript</p></li>
+                <li className="pro-icons"><div className="si-icons"><DiJavascript1/></div><p>JavaScript</p></li>
                 <li className="pro-icons"><div className="si-icons"><FaJava/></div><p>Java</p></li>
                 <li className="pro-icons"><div className="si-icons"><FaPython/></div><p>Python</p></li>
               </ul>
             
             <li className="category">TECHNOLOGIES AND FRAMEWORKS</li>
             <ul className="skills-category">
-              <li className="pro-icons"><div className="si-icons"><SiHtml5/></div><p>Html</p></li>
+              <li className="pro-icons"><div className="si-icons"><SiHtml5/></div><p>HTML</p></li>
               <li className="pro-icons"><div className="si-icons"><SiCss3/></div><p>CSS</p></li>
               <li className="pro-icons"><div className="si-icons"><FaReact/></div><p>ReactJs</p></li>
               <li className="pro-icons"><div className="si-icons"><SiRedux/></div><p>Redux</p></li>
-              <li className="pro-icons"><div className="si-icons"><FaNodeJs/></div><p>Node.js</p></li>
-              <li className="pro-icons"><div className="si-icons"><GiSightDisabled/></div><p>Express.js</p></li>
+              <li className="pro-icons"><div className="si-icons"><FaNodeJs/></div><p>NodeJs</p></li>
+              <li className="pro-icons"><div className="si-icons"><GiSightDisabled/></div><p>ExpressJs</p></li>
               <li className="pro-icons"><div className="si-icons"><SiMongodb/></div><p>MongoDB</p></li>
               <li className="pro-icons"><div className="si-icons"><FaBootstrap/></div><p>Bootstrap</p></li>
               <li className="pro-icons"><div className="si-icons"><SiFirebase/></div><p>Firebase</p></li>

@@ -36,7 +36,7 @@ const Home = () => {
           </div>
           <div className="col-6">
             <div className="banner__img">
-              <img src={state.image} alt="man" />
+              <img src={state.image} alt="profile" />
             </div>
           </div>
         </div>
