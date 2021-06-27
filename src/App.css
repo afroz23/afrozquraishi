@@ -395,14 +395,11 @@ body {
   flex-direction: column;
   align-items: flex-start;
 }
-.info__contacts .row .col-6 span {
-  margin-left: 10px;
-}
-.info__contacts strong {
+.info__contacts .row .col-6 div strong {
   color: #ff4a57;
 }
-.info__contacts p {
-  margin-left: 4%;
+.info__contacts span {
+  margin-left: 10px;
 }
 .info__contacts .col-6 {
   margin: 10px 0;
@@ -570,9 +567,41 @@ li {
   transition: all 0.5 ease-in-out;
   display: none;
 }
-.container {
+.home .container,
+.about .container,
+.navbar .container {
   padding-left: 20px;
 }
+
+@media (max-width: 490px) {
+  .projects__box {
+    display: block;
+    height: 11rem;
+    width: 14rem;
+    padding: 10px;
+    margin-top: 20px;
+    margin-bottom: 10px;
+  }
+  .projects__box-header {
+    font-size: 15px;
+    font-weight: 500;
+    margin-bottom: 10px;
+  }
+  .projects__header {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 0;
+  }
+  .projects__box-p {
+    font-size: 9px;
+  }
+  .commonIcons {
+    margin-bottom: 5px;
+  }
+}
+
 @media (max-width: 765px) {
   .container {
     width: 100%;
@@ -665,32 +694,6 @@ li {
     display: flex;
     justify-content: center;
     align-items: center;
-  }
-  .projects__box {
-    display: block;
-    height: 11rem;
-    width: 14rem;
-    padding: 10px;
-    margin-top: 20px;
-    margin-bottom: 10px;
-  }
-  .projects__box-header {
-    font-size: 15px;
-    font-weight: 500;
-    margin-bottom: 10px;
-  }
-  .projects__header {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    margin: 0;
-  }
-  .projects__box-p {
-    font-size: 9px;
-  }
-  .commonIcons {
-    margin-bottom: 5px;
   }
   .contactCircles a {
     margin: 0;

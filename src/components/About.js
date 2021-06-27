@@ -6,12 +6,6 @@ const About = () => {
     subHeader: "About Me",
     text: "IIIT Gwalior'23 • Competitive Programmer • MERN Stack Developer",
   });
-  // const [state] = React.useState([
-  //   { id: 1, title: "Name:", text: "Afroz Quraishi" },
-  //   { id: 2, title: "" },
-  //   { id: 3, title: "", text: "" },
-  //   { id: 4, title: "", text: "afrozquraishi.herokuapp.com" },
-  // ]);
   return (
     <div id="about" className="about">
       <div className="container">
@@ -36,7 +30,7 @@ const About = () => {
                         </div>
                         <div>
                           <strong>Phone:</strong>
-                          <span>+91 7665182848</span>
+                          <span>+91-7665182848</span>
                         </div>
                         <div>
                           <strong>Website:</strong>

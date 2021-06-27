@@ -3,7 +3,7 @@ import Typed from 'react-typed';
 import {FaLinkedinIn,FaTwitter,FaInstagram} from "react-icons/fa";
 import { AiFillGithub } from "react-icons/ai";
 const Home = () => {
-  const [state] = React.useState({ image: "/images/afroz23.png"  });
+  const [state] = React.useState({ image: "/images/afroz23.jpeg"  });
   return (
     <header id="home" className="header">
       <div className="container">
@@ -13,7 +13,7 @@ const Home = () => {
               <div className="header__section">
                 <div className='header-font-size'>Hi, I'm <span className="span-afroz">Afroz</span> Quraishi</div>
                 <Typed  
-                    className="typed-text"                  
+                    className="typed-text"
                     strings={['Competitive Programmer','Full Stack Developer','Open Source Contributor','Problem Solver']}
                     typeSpeed={80}
                     backSpeed={10}
