@@ -5,19 +5,26 @@ import Nav from "./components/Nav";
 import Projects from "./components/Projects";
 import About from "./components/About";
 import Skills from "./components/Skills";
+import { BackTop } from "antd";
+import {FaArrowUp} from 'react-icons/fa';
 import Contact from "./components/Contact";
-
 function App() {
   return (
-      <div>
+    <div>
         <Nav/>
-        <Home />
-        <Projects />
-        <About />
+        <Home/>
+        <About/>
+        <Projects/>
         <Skills/>
-        <hr></hr>
+        
+        <span>
+          <BackTop>
+            <div className="commonIcons"><FaArrowUp/></div>
+          </BackTop>
+        </span>
+        <hr/>
         <Contact/>
-      </div>
+    </div>
   );
 }
 

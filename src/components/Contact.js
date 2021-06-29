@@ -9,7 +9,7 @@ const Contact = () => {
                 
                 <div className="contactSection-logo">
                   <h1>Get In Touch</h1>
-                  <p>Email me: afroziiitian@gmail.com</p>
+                  <p><a href="mailto:afroziiitian@gmail.com">Send email</a></p>
                 </div>
                 
                 <div className="contactCircles">

@@ -75,9 +75,7 @@ body {
   border-bottom: 1px solid #ff4321;
 }
 .navbar__container .navbar-item a:active {
-  color: #971801;
-  border-bottom: 1px solid #2740ff;
-  color: #000;
+  border-bottom: 1px solid #00fa00;
 }
 
 .navbar__right,
@@ -502,8 +500,9 @@ li {
   margin-bottom: 20px;
 }
 
-.contactSection p {
-  color: #000;
+.contactSection-logo p a {
+  color: #ff4321;
+  text-decoration: none;
   font-size: 14px;
 }
 
@@ -570,7 +569,15 @@ li {
 .home .container,
 .about .container,
 .navbar .container {
-  padding-left: 20px;
+  padding-lef: 20px;
+}
+span div.commonIcons {
+  padding-right: 20px;
+  font-size: 20px;
+  cursor: pointer;
+  text-align: right;
+  line-height: 40px;
+  color: #ff4321;
 }
 
 @media (max-width: 490px) {
@@ -706,4 +713,9 @@ li {
   .projects .container {
     padding: 10px;
   }
+}
+
+::selection {
+  background-color: #ff4321;
+  color: white;
 }
