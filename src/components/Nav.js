@@ -19,11 +19,12 @@ const Nav = () => {
           </div>
           
             <Anchor className="navbar__right" style={{transform:state?"translateX(0px)": ""}}>
-               <Link className="navbar-item" href="#home" title="Home" />
-               <Link className="navbar-item" href="#projects" title="Projects" />
-               <Link className="navbar-item" href="#about" title="About"/>
-               <Link className="navbar-item" href="#skills" title="Skills" />
-               <Link className="navbar-item" href="#contact" title="Contact" />
+              <Link className="navbar-item" href="#home" title="Home" />
+              <Link className="navbar-item" href="#projects" title="Projects" />
+              <Link className="navbar-item" href="#about" title="About"/>
+              <Link className="navbar-item" href="#skills" title="Skills" />
+              <Link className="navbar-item" target="_blank" href="https://afroziiitian.medium.com/" title="Blog" />
+              <Link className="navbar-item" href="#contact" title="Contact" />
             </Anchor>
             
         </div>
