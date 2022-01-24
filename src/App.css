@@ -63,23 +63,21 @@ body {
   font-weight: 700;
   transition: all 5 ease-in-out;
 }
-.navbar__container .navbar-item a {
+.navbar__container a {
   color: #ff4321;
   text-decoration: none;
   transition: all 0.4s ease-in-out;
 }
 
-.navbar__container .navbar-item a:hover {
+.navbar__container a:hover {
   color: #333333;
-  transition: all 0.3s ease-in-out;
-  border-bottom: 1px solid #ff4321;
 }
-.navbar__container .navbar-item a:active {
-  border-bottom: 1px solid #00fa00;
+.navbar__right a.active {
+  color: #333333;
 }
 
 .navbar__right,
-.navbar-item {
+.navbar__right a {
   display: inline;
   text-decoration: none;
   font-weight: 500;
@@ -402,7 +400,7 @@ body {
 .info__contacts .col-6 {
   margin: 10px 0;
 }
-.resume a {
+.resume {
   background-color: white;
   color: #3b444b;
   border: 2px solid #ff4321;
@@ -419,9 +417,10 @@ body {
   justify-content: center;
   align-items: center;
 }
-.resume a:hover,
-.resume a:active {
-  box-shadow: inset 0 100px 0 0 #ff4321;
+.resume:hover,
+.resume:active {
+  cursor: pointer;
+  background-color: #ff4321;
   color: #fff;
   transition: all 0.4s ease-in-out;
 }
