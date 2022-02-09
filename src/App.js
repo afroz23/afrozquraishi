@@ -12,18 +12,18 @@ function App() {
   return (
     <div>
       <Nav />
-      {/* <Routes>
+      <Routes>
         <Route path="/" element={<Home />} />
         <Route path="/projects" element={<Projects />} />
         <Route path="/about" element={<About />} />
         <Route path="/skills" element={<Skills />} />
         <Route path="/contact" element={<Contact />} />
-      </Routes> */}
-      <Home />
+      </Routes>
+      {/* <Home />
       <Projects />
       <About />
       <Skills />
-      <Contact />
+      <Contact /> */}
     </div>
   );
 }

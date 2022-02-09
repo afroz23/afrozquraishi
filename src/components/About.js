@@ -11,7 +11,7 @@ const About = () => {
       method: "GET",
       responseType: "blob",
     })
-      .then((res) => download(res.data, "resume.pdf"))
+      .then((res) => download(res.data, "Afroz_Quraishi_resume.pdf"))
       .catch((error) => {
         console.log("something went wrong");
       });
