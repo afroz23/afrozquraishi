@@ -13,9 +13,10 @@ export default function Contact() {
                 <div className={styles.contactSection}>
                     <div className={styles.postionOfLinks}>
                         <p className={styles.contact_info}>
-                            I'm available on LinkedIn, Twitter and Instagram.
-                            Mails and LinkedIn are the best way to communicate
-                            though. You can reach out to me any time.
+                            I&aposm available on LinkedIn, Twitter and
+                            Instagram. Mails and LinkedIn are the best way to
+                            communicate though. You can reach out to me any
+                            time.
                         </p>
                         <div className={styles.contactSection_logo}>
                             <p>

@@ -51,8 +51,8 @@ export default function About() {
                                 <h1>Hello There!</h1>
                                 <div className={styles.aboutMe}>
                                     <div className={styles.about__info_p1}>
-                                        I'm a prefinal year student pursuing an
-                                        Integrated Post Graduate (B.Tech +
+                                        I&aposm a prefinal year student pursuing
+                                        an Integrated Post Graduate (B.Tech +
                                         M.Tech) in the Department of Information
                                         Technology at{" "}
                                         <span className={styles.about_text}>
@@ -60,7 +60,7 @@ export default function About() {
                                         </span>{" "}
                                         (ABV-Indian Institute of Information
                                         Technology and Management Gwalior). and
-                                        I'm a{" "}
+                                        I&aposm a{" "}
                                         <span className={styles.about_text}>
                                             front-end developer
                                         </span>{" "}
@@ -73,9 +73,9 @@ export default function About() {
                                         2021.
                                     </div>
                                     <div className={styles.about__info_p2}>
-                                        Currently, I'm working at a startup and
-                                        Looking for a Summer Internship in the
-                                        SDE role. Apart from this, I am a
+                                        Currently, I&aposm working at a startup
+                                        and Looking for a Summer Internship in
+                                        the SDE role. Apart from this, I am a
                                         problem solver and I solve Data
                                         Structure and Algorithms problems on
                                         LeetCode, CodeChef.
@@ -88,6 +88,7 @@ export default function About() {
                                             className={styles.link}
                                             href="https://drive.google.com/file/d/1z-wjgOCZORI6fIPOa7aBESVSohO_UC0M/view?usp=sharing"
                                             target="_blank"
+                                            rel="noreferrer"
                                         >
                                             Download resume
                                         </a>

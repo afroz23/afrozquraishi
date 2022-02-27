@@ -53,7 +53,7 @@ export default function Experience() {
                                 <div className={styles.experience_title}>
                                     <FaSuitcase />
                                     <div>
-                                        GirlScript Summer of Code'20, Open
+                                        GirlScript Summer of Code&apos;20, Open
                                         Source Contributor
                                     </div>
                                 </div>
