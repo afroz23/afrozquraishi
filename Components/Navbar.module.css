@@ -1,0 +1,88 @@
+.navbar {
+    box-sizing: border-box;
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%;
+    height: 70px;
+    position: fixed;
+    top: 0;
+    background: #fff;
+    z-index: 1;
+    box-shadow: 0 5px 20px rgba(0, 0, 0, 0.1);
+    color: #ff4321;
+}
+
+.navbar__container {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    height: 55px;
+}
+.navbar__left_logo {
+    color: #ff4321;
+    cursor: pointer;
+    font-size: 7vh;
+}
+
+.navbar__right {
+    display: flex;
+    justify-content: flex-end;
+    flex-wrap: wrap;
+    list-style-type: none;
+    align-items: flex-end;
+}
+.navbar__container .navbar__right {
+    display: flex;
+    justify-content: space-between;
+    font-weight: 700;
+    transition: all 5 ease-in-out;
+}
+.navbar__container a {
+    color: #ff4321;
+    text-decoration: none;
+    transition: all 0.4s ease-in-out;
+}
+
+.navbar__container a:hover {
+    color: #333333;
+}
+.navbar__right .active {
+    color: #333333;
+}
+.item_list .active {
+    border: 2px red solid;
+}
+
+.navbar__right,
+.navbar__right a {
+    display: inline;
+    text-decoration: none;
+    font-weight: 500;
+    font-size: 18px;
+    padding: 0 15px;
+    cursor: pointer;
+}
+
+.navbar__left-logo {
+    display: flex;
+}
+.navbar__container .navbar__right {
+    position: absolute;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    top: 0;
+    left: 0;
+    margin-top: -30px;
+    height: 100vh;
+    background: #fff;
+    width: 50%;
+    transition: all 5 ease-in-out;
+    transform: translateX(-500px);
+}
+
+.toggle {
+    display: flex;
+}

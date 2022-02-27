@@ -1,0 +1,121 @@
+.contact {
+    height: 60vh;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+    background-image: url("../Images/contact.svg");
+    background-repeat: no-repeat;
+    background-position: 14%;
+}
+.container {
+    width: 1200px;
+    margin: 0 auto;
+}
+.contactSection {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    padding: 50px 0 0 20rem;
+}
+
+.common {
+    margin: 1rem;
+    text-align: center;
+}
+
+.mainHeader {
+    font-size: 32px;
+    margin-bottom: 10px;
+    color: rgb(44, 44, 44);
+}
+.commonBorder {
+    background: #ff4a57;
+    height: 3px;
+    width: 190px;
+    margin: 10px auto;
+}
+
+.contactSection_logo p a {
+    margin-bottom: 20px;
+    border: 2px solid #ff4321;
+    height: 50px;
+    width: 150px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border-radius: 20px;
+    font-size: 20px;
+    transition: all 0.4s ease-in-out;
+}
+
+.contactSection_logo p a:hover {
+    color: #ff4321;
+    transition: all 0.4s ease-in-out;
+    text-decoration: none;
+    border: 2px solid white;
+    background-color: #ff4321;
+    color: white;
+    font-size: 20px;
+}
+.contact_info {
+    width: 50%;
+    text-align: justify;
+    margin-bottom: 1rem;
+}
+
+.contactCircles {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #fff;
+    transition: all 0.5s linear;
+    cursor: pointer;
+    margin-bottom: 20px;
+}
+
+.contactCircles .para_links {
+    margin-left: 10px;
+    margin-right: 10px;
+    color: #ff4321;
+    text-decoration: none;
+    transition: all 0.4s ease-in-out;
+}
+.contactCircles .para_links .link:hover {
+    color: #333333;
+    text-decoration: none;
+    transition: all 0.4s ease-in-out;
+}
+
+.toggle {
+    position: fixed;
+    top: 10px;
+    font-size: 25px;
+    right: 20px;
+    background: #000;
+    color: #fff;
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    cursor: pointer;
+    align-items: center;
+    justify-content: center;
+    transition: all 0.5 ease-in-out;
+    display: none;
+}
+
+.line {
+    color: black;
+}
+
+.postionOfLinks {
+    height: 100%;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}

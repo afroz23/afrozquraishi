@@ -1,0 +1,102 @@
+.projects {
+    background: #f0efef;
+    padding: 0;
+    color: #fff;
+    min-height: 100vh;
+}
+.container {
+    width: 1200px;
+    margin: 0 auto;
+}
+.projects_container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 3rem 0.5rem;
+    width: 100%;
+}
+.common {
+    width: 33.33333333333333%;
+    margin: 10px auto;
+    text-align: center;
+}
+
+.mainHeader {
+    font-size: 32px;
+    margin-bottom: 20px;
+    color: rgb(44, 44, 44);
+}
+.commonBorder {
+    background: #ff4a57;
+    height: 3px;
+    width: 100px;
+    margin: 10px auto;
+}
+
+.card_container {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.card {
+    display: block;
+    height: 16rem;
+    width: 22.5rem;
+    padding: 1rem;
+    background: #fff;
+    color: #333333;
+    margin: 20px;
+    transition: all 0.5s linear;
+    box-shadow: 0 3px 10px rgb(0, 0, 0, 0.2);
+    border: 1px solid #eee;
+    border-radius: 8px;
+    cursor: pointer;
+}
+.card:hover {
+    transform: scale(0.99);
+    transition: transform 0.5s ease;
+    box-shadow: 0 3px 10px rgb(0, 0, 0, 0.3);
+}
+.commonIcons {
+    font-size: 40px;
+    color: #ff4321;
+    margin-bottom: 15px;
+    transition: transform 1s ease;
+}
+.commonIcons:hover {
+    color: #6f6e6e;
+    transition: transform 1s ease;
+}
+
+.main-iconss a .commonIcon {
+    font-size: 35px;
+}
+
+.main_iconss {
+    display: flex;
+    justify-content: space-between;
+}
+
+.card_header {
+    font-size: 20px;
+    font-weight: 500;
+    margin-bottom: 10px;
+    font-size: 1rem;
+    font-weight: 700;
+}
+.card_p {
+    color: #787878;
+    font-size: 1.1rem;
+    margin: 12px;
+}
+
+@media screen and (max-width: 940px) {
+    .card {
+        max-width: 100%;
+        margin: 1rem;
+    }
+}

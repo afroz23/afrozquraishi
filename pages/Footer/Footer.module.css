@@ -1,0 +1,28 @@
+.footer {
+    width: 100%;
+    background-color: #ff4a57;
+    color: #eee;
+}
+
+.footer .container {
+    max-width: 1240px;
+    text-align: center;
+}
+
+.bottom {
+    text-align: center;
+    padding-top: 1rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.main_footer {
+    height: 100%;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 1.3rem;
+    padding-bottom: 10px;
+}

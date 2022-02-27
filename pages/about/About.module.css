@@ -1,0 +1,160 @@
+.about {
+    /* background: #f0efef; */
+    background-color: #fff;
+    padding: 0;
+    min-height: 100vh;
+}
+.container {
+    width: 1200px;
+    margin: 0 auto;
+}
+
+.about_container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 3rem 0.5rem;
+    width: 100%;
+}
+.common {
+    width: 33.33333333333333%;
+    margin: 10px auto;
+    text-align: center;
+}
+
+.mainHeader {
+    font-size: 32px;
+    margin-bottom: 10px;
+    color: rgb(44, 44, 44);
+}
+.commonBorder {
+    background: #ff4a57;
+    height: 3px;
+    width: 140px;
+    margin: 10px auto;
+}
+
+.bgMain {
+    background: #fff;
+}
+
+.h_650 {
+    height: 400px;
+}
+.alignCenter {
+    align-items: center;
+}
+.justifyConter {
+    justify-content: center;
+}
+
+/* Flex System */
+.row {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    width: 100%;
+}
+.col_6 {
+    width: 40%;
+}
+
+.col_4 {
+    width: flex;
+}
+
+.about__img {
+    padding: 30px;
+}
+
+.about__info {
+    color: #333333;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.about__info h1 {
+    margin-bottom: 10px;
+    margin-left: 0px;
+}
+
+.info__contacts .row {
+    display: flex;
+    flex-direction: column;
+}
+.info__contacts .row .col_6 {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+}
+.resume p a {
+    margin-top: 20px;
+    border: 2px solid #ff4321;
+    height: 50px;
+    width: 220px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border-radius: 20px;
+    font-size: 20px;
+    transition: all 0.4s ease-in-out;
+}
+
+.resume p a:hover {
+    color: #ff4321;
+    transition: all 0.4s ease-in-out;
+    text-decoration: none;
+    border: 2px solid white;
+    background-color: #ff4321;
+    color: white;
+    font-size: 20px;
+}
+.banner__img {
+    padding: 0 30px;
+    height: 200%;
+    width: 200%;
+}
+
+.profile {
+    border-radius: 50%;
+    color: #ff4321;
+}
+
+.aboutMe {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+    row-gap: 20px;
+    color: #333333;
+    font-size: 17px;
+    text-align: justify;
+}
+.about_text {
+    color: #ff4321;
+    font-weight: 800;
+}
+@media screen and (max-width: 940px) {
+    .about .container {
+        grid-template-columns: 1fr;
+    }
+
+    .about .container {
+        width: 100%;
+    }
+
+    .about .container img {
+        padding: 0rem;
+        width: 90vw;
+    }
+
+    .about .container .col-2 {
+        padding: 0;
+    }
+
+    .about button {
+        margin-bottom: 1rem;
+    }
+}
