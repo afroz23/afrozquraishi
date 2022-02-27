@@ -5,9 +5,12 @@
     flex-direction: column;
     justify-content: flex-start;
     align-items: center;
+}
+.backImage {
+    height: 100%;
     background-image: url("../Images/contact.svg");
     background-repeat: no-repeat;
-    background-position: 14%;
+    background-position: 10%;
 }
 .container {
     width: 1200px;

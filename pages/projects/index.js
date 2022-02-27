@@ -35,7 +35,6 @@ const Projects = () => {
 
                                         {project.deployLink && (
                                             <a
-                                                className={styles.deploy_link}
                                                 target="_blank"
                                                 rel="noopener noreferrer"
                                                 alt="Deploy link"

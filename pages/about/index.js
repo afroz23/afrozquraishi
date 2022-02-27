@@ -73,12 +73,12 @@ export default function About() {
                                         2021.
                                     </div>
                                     <div className={styles.about__info_p2}>
-                                        Currently, I &apos;; m working at a
-                                        startup and Looking for a Summer
-                                        Internship in the SDE role. Apart from
-                                        this, I am a problem solver and I solve
-                                        Data Structure and Algorithms problems
-                                        on LeetCode, CodeChef.
+                                        Currently, I&apos;m working at a startup
+                                        and Looking for a Summer Internship in
+                                        the SDE role. Apart from this, I am a
+                                        problem solver and I solve Data
+                                        Structure and Algorithms problems on
+                                        LeetCode, CodeChef.
                                     </div>
                                 </div>
 
