@@ -56,7 +56,7 @@ export default function About() {
                                         M.Tech) in the Department of Information
                                         Technology at{" "}
                                         <span className={styles.about_text}>
-                                            IIIT Gwalior
+                                            IIIT Gwalior.
                                         </span>{" "}
                                         (ABV-Indian Institute of Information
                                         Technology and Management Gwalior). and
