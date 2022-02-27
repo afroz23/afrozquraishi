@@ -3,7 +3,7 @@ import { FaGithub } from "react-icons/fa";
 import { GrDeploy } from "react-icons/gr";
 import styles from "./Projects.module.css";
 import { Element } from "react-scroll";
-import { projectDetails } from "./projectDetails";
+import { projectDetails } from "../../Components/projectDetails";
 const Projects = () => {
     return (
         <Element name="projects" className={styles.projects}>
