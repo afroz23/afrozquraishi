@@ -11,6 +11,9 @@
     box-shadow: 0 5px 20px rgba(0, 0, 0, 0.1);
     color: #ff4321;
 }
+.container {
+    width: 90%;
+}
 
 .navbar__container {
     display: flex;
