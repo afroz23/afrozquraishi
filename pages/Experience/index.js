@@ -30,7 +30,7 @@ export default function Experience() {
                                     December, 2021 - Present
                                 </div>
                                 <div className={styles.detail}>
-                                    <div>
+                                    <div className={styles.text}>
                                         Developed work base area of a user added
                                         more functionality such as filter,
                                         select multiple rows to delete at once,
@@ -39,7 +39,7 @@ export default function Experience() {
                                         added validation to each field.
                                     </div>
                                     <br />
-                                    <div>
+                                    <div className={styles.text}>
                                         Daily minimum 30min work and
                                         team/product discussions and gave
                                         productive ideas. Wrote clean and
@@ -61,13 +61,13 @@ export default function Experience() {
                                     March, 2020 - May, 2020 (3 months)
                                 </div>
                                 <div className={styles.detail}>
-                                    <div>
+                                    <div className={styles.text}>
                                         It is the 3 month-long Open Source
                                         program during summers conducted by
                                         GirlScript Foundation.
                                     </div>
                                     <br />
-                                    <div>
+                                    <div className={styles.text}>
                                         Contributed to the Algo_Ds_Notes project
                                         where I included some Algorithms. While
                                         I learned a lot of things in Git and

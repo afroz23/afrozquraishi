@@ -4,7 +4,7 @@ import { GrDeploy } from "react-icons/gr";
 import styles from "./Projects.module.css";
 import { Element } from "react-scroll";
 import { projectDetails } from "../../Components/projectDetails";
-const Projects = () => {
+export default function Projects() {
     return (
         <Element name="projects" className={styles.projects}>
             <div className={styles.projects_container}>
@@ -66,6 +66,4 @@ const Projects = () => {
             </div>
         </Element>
     );
-};
-
-export default Projects;
+}

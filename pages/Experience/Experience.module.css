@@ -120,6 +120,9 @@
     color: #333333;
     font-size: 19px;
 }
+.detail .text {
+    text-align: justify;
+}
 .ul {
     list-style-type: none;
 }
@@ -150,5 +153,11 @@
 
     .about button {
         margin-bottom: 1rem;
+    }
+    .row {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
     }
 }

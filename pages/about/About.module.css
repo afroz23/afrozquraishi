@@ -140,12 +140,17 @@
     .about .container {
         grid-template-columns: 1fr;
     }
-
+    .row {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
     .about .container {
         width: 100%;
     }
 
-    .about .container img {
+    .about .container {
         padding: 0rem;
         width: 90vw;
     }

@@ -60,7 +60,7 @@ export default function About() {
                                         </span>{" "}
                                         (ABV-Indian Institute of Information
                                         Technology and Management Gwalior). and
-                                        I&apos;;m a{" "}
+                                        I&apos;m a{" "}
                                         <span className={styles.about_text}>
                                             front-end developer
                                         </span>{" "}
