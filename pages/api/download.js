@@ -1,8 +1,3 @@
-export default function handler(req, res) {
-    res.send("this route is defined to download resume");
-    console.log("pdf downloaded");
-}
-
 // const express = require("express");
 // const cors = require("cors");
 // const app = express();
@@ -10,12 +5,12 @@ export default function handler(req, res) {
 // app.use(cors());
 
 // app.get("/", (req, res) => {
-//   res.send("home page");
+//     res.send("home page");
 // });
 // app.get("/download", (req, res) => {
-//   res.download("./resume.pdf");
+//     res.download("./resume.pdf");
 // });
 
 // app.listen(PORT, () => {
-//   console.log("server is running..");
+//     console.log("server is running..");
 // });
