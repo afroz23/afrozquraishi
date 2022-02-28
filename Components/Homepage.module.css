@@ -1,13 +1,14 @@
 .container {
-    width: 95%;
-    margin: 0 auto;
+    width: 100%;
+    min-height: 100vh;
+    padding: 0;
 }
 
 .row {
     display: flex;
     justify-content: center;
     flex-wrap: wrap;
-    width: 100%;
+    width: 95%;
 }
 
 .col_6 {
@@ -35,7 +36,7 @@
 .header__content {
     display: flex;
     align-items: center;
-    height: 100vh;
+    height: 100%;
     width: 100%;
     color: #212121;
 }
@@ -104,9 +105,6 @@
     color: #edf2fc;
     transition: all 0.2s linear;
 }
-.header__ul .header_anchor:first-child {
-    margin-left: 0;
-}
 
 .btn {
     outline: none;
@@ -158,40 +156,47 @@
 }
 
 @media only screen and (max-width: 768px) {
-    .container {
-        width: 100vw;
-        padding: 0px 30px;
+    .header__content {
+        height: 100%;
+        width: 70%;
+        margin: 0;
+        padding: 0;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    .row {
+        width: 90%;
+        height: 90%;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
     }
 
     .banner__img {
         display: none;
     }
-    .row {
-        padding-top: 3rem;
+
+    .typed_text {
+        font-size: 1.3rem;
+        font-weight: 600;
+        margin: 20px;
+    }
+    .header_font_size {
+        font-weight: 800;
     }
 }
 
 /* @media (max-width: 765px) {
     
-    .typed_text {
-        font-size: 1.3rem;
-    }
-    .header__content {
-        padding-top: 80px;
-    }
-    .a {
-        display: block;
-        justify-content: center;
-        padding: 10px 0;
-        font-size: 20px;
-    }
+    
+    
     .header__ul {
         color: #333333;
     }
-    .col_6 {
-        width: 100%;
-        margin: 0;
-    }
+    
     .about {
         margin: 0;
         padding: 0;
@@ -227,11 +232,7 @@
         display: flex;
     }
     
-    .header__section h1 {
-        font-size: 35px;
-        font-weight: 700;
-        margin-bottom: 20px;
-    }
+    
     .header__section p {
         font-size: 20px;
         font-weight: 300;

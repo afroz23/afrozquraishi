@@ -7,7 +7,7 @@ import Contact from "./contact/index";
 import Homepage from "../Components/Homepage";
 import Navbar from "../Components/Navbar";
 import Footer from "./Footer/index";
-
+import styles from "../styles/Home.module.css";
 export default function Home() {
     return (
         <div>
@@ -20,15 +20,17 @@ export default function Home() {
                 <link rel="icon" href="/favicon.ico" />
             </Head>
             <Navbar />
-            <Homepage />
-            <hr />
+            <div className={styles.fix}>
+                <Homepage />
+                <hr />
 
-            <About />
-            <hr />
-            <Experience />
-            <Projects />
-            <Contact />
-            <Footer />
+                <About />
+                <hr />
+                <Experience />
+                <Projects />
+                <Contact />
+                <Footer />
+            </div>
         </div>
     );
 }

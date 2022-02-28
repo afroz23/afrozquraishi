@@ -23,11 +23,13 @@ function Home() {
                         <div className={styles.header__content}>
                             <div className={styles.header__section}>
                                 <div className={styles.header_font_size}>
-                                    Hi, I'm{" "}
-                                    <span className={styles.span_afroz}>
-                                        Afroz
-                                    </span>{" "}
-                                    Quraishi
+                                    <div>
+                                        Hi, I'm{" "}
+                                        <span className={styles.span_afroz}>
+                                            Afroz
+                                        </span>{" "}
+                                        Quraishi
+                                    </div>
                                 </div>
                                 <Typed
                                     className={styles.typed_text}
