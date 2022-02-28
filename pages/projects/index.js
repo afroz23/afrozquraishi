@@ -14,9 +14,9 @@ export default function Projects() {
                         <div className={styles.commonBorder}></div>
                     </div>
                     <div className={styles.card_container}>
-                        {projectDetails.map((project) => {
+                        {projectDetails.map((project, i) => {
                             return (
-                                <div key={project.id} className={styles.card}>
+                                <div key={i} className={styles.card}>
                                     <div className={styles.main_iconss}>
                                         {project.projectLink && (
                                             <a

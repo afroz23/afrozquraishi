@@ -22,6 +22,7 @@ export default function Navbar() {
                             duration={500}
                             className={styles.navbar__left_logo}
                             onClick={() => scroll.scrollToTop()}
+                            to="home"
                         >
                             <FaCode />
                         </Link>
