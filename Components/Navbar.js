@@ -20,11 +20,10 @@ export default function Navbar() {
                             smooth={true}
                             offset={-55}
                             duration={500}
-                            className={styles.navbar__left_logo}
                             onClick={() => scroll.scrollToTop()}
                             to="home"
                         >
-                            <FaCode />
+                            <FaCode className={styles.navbar__left_logo} />
                         </Link>
                     </div>
 

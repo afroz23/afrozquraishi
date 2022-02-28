@@ -37,7 +37,7 @@
 .navbar__left_logo {
     color: #ff4321;
     cursor: pointer;
-    font-size: 2rem;
+    font-size: 3rem;
 }
 
 .navbar__right {
@@ -72,9 +72,10 @@
     display: inline;
     text-decoration: none;
     font-weight: 500;
-    font-size: 18px;
+    font-size: 20px;
     padding: 0 15px;
     cursor: pointer;
+    font-weight: 700;
 }
 
 /* Helpers */
