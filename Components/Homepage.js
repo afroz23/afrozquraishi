@@ -1,6 +1,6 @@
 import React from "react";
 import Image from "next/image";
-import styles from "./Homepage.module.css";
+import styles from "../styles/Home.module.css";
 import Typed from "react-typed";
 import { FaLinkedinIn, FaTwitter, FaInstagram } from "react-icons/fa";
 import { AiFillGithub } from "react-icons/ai";

@@ -14,14 +14,6 @@
     width: 100%;
 }
 
-.experience_container {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-    padding: 3rem 0.5rem;
-    width: 100%;
-}
 .common {
     width: 33.33333333333333%;
     margin: 10px auto;
@@ -54,7 +46,7 @@
 }
 
 .title {
-    font-size: 2rem;
+    font-size: 2em;
     color: #ff4a57;
     padding-bottom: 40px;
     font-weight: 900;
@@ -107,7 +99,8 @@
         width: 100%;
     }
     .title {
-        text-align: center;
+        font-size: 30px;
+        text-align: left;
     }
 
     .row,

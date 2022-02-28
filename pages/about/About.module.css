@@ -87,11 +87,10 @@
     align-items: center;
     border-radius: 20px;
     font-size: 20px;
-    transition: all 0.4s ease-in-out;
+    transition: all 0.9s ease-in-out;
 }
 
 .resume p a:hover {
-    color: #ff4321;
     transition: all 0.4s ease-in-out;
     text-decoration: none;
     border: 2px solid white;
@@ -101,8 +100,8 @@
 }
 .banner__img {
     padding: 0 30px;
-    height: 200%;
-    width: 200%;
+    height: 100%;
+    width: 100%;
 }
 
 .profile {
@@ -126,8 +125,8 @@
 }
 /* @media screen and (max-width: 768px) {
     .common {
-        display: grid;
-        align-self: center;
+        margin: 0;
+        padding: 0;
     }
     .row {
         height: 100%;
@@ -141,21 +140,15 @@
         width: 100%;
     }
 
-    /* .about__info {
-        width: 350%;
-    } */
-/* .about__info_p1,
-.about__info_p2 {
-    font-size: 2rem;
-    text-align: left;
-}
-.resume {
-    margin-bottom: 20px;
-} */
-/* .banner__img {
-        height: 400px;
-        width: 400px;
-    } 
+    .about__info_p1,
+    .about__info_p2 {
+        height: 1;
+        font-size: 1rem;
+        text-align: left;
+    }
+    .resume {
+        margin-bottom: 20px;
+    }
     .about__info h1 {
         width: 100%;
         text-align: left;
