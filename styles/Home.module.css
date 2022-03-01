@@ -44,8 +44,9 @@
     cursor: pointer;
 }
 .header_font_size {
-    font-size: 3rem;
-    font-weight: 1800;
+    padding-top: 20%;
+    font-size: 3.5rem;
+    font-weight: 800;
 }
 .typed_text {
     font-size: 1.8rem;
@@ -136,7 +137,7 @@
     width: 130%;
 }
 
-@media only screen and (max-width: 768px) {
+@media only screen and (max-width: 800px) {
     .header__content,
     .container {
         width: 100%;
@@ -173,6 +174,6 @@
         text-align: center;
     }
     .header__section {
-        padding: 5%;
+        padding: 10% 5% 5% 5%;
     }
 }

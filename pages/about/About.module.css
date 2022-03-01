@@ -122,10 +122,10 @@
 }
 
 .resume {
-    margin: 8% 0%;
+    padding: 12% 0%;
 }
 
-@media screen and (max-width: 800px) {
+@media only screen and (max-width: 800px) {
     .common {
         width: 100%;
     }
@@ -142,7 +142,7 @@
         width: 100%;
     }
     .banner__img {
-        margin-bottom: 5%;
+        margin: 5% 0%;
     }
 
     .about__info_p1,

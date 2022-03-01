@@ -94,7 +94,7 @@
     padding-top: 10px;
     padding-bottom: 10px;
 }
-@media screen and (max-width: 768px) {
+@media only screen and (max-width: 800px) {
     .container {
         width: 100%;
     }

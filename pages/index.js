@@ -24,7 +24,9 @@ export default function Home() {
             <About />
             <hr />
             <Experience />
+            <hr />
             <Projects />
+            <hr />
             <Contact />
             <Footer />
         </div>
