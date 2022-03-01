@@ -9,7 +9,8 @@ export const projectDetails = [
         projectLink: "https://github.com/afroz23/afrozquraishi",
         deployLink: "https://afrozquraishi.vercel.app/",
         projectTitle: "Portfolio",
-        projectDetail: "This portfolio created with Nextjs.",
+        projectDetail:
+            "This portfolio created with Nextjs. I used pure CSS to make it responsive NO Bootstrap.",
     },
     {
         projectLink: "https://github.com/afroz23/Meme_generator",

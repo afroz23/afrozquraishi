@@ -96,8 +96,12 @@
 }
 
 .burger {
+    height: 60%;
+    width: 10%;
     color: black;
-    font-size: 25px;
+    font-size: 50%;
+    border: 2px solid black;
+    padding: 0.2%;
     cursor: pointer;
     display: none;
 }

@@ -52,10 +52,6 @@
     width: 40%;
 }
 
-.about__img {
-    padding: 3%;
-}
-
 .about__info {
     color: #333333;
     display: flex;
@@ -99,14 +95,16 @@
     font-size: 20px;
 }
 .banner__img {
-    padding: 0 30px;
-    height: 100%;
-    width: 100%;
+    display: grid;
+    align-self: center;
+    height: 18rem;
+    width: 18rem;
 }
 
 .profile {
+    height: 100%;
+    width: 100%;
     border-radius: 50%;
-    color: #ff4321;
 }
 
 .aboutMe {
@@ -123,7 +121,10 @@
     color: #ff4321;
     font-weight: 800;
 }
-@media screen and (max-width: 768px) {
+.resume {
+    margin: 8% 0%;
+}
+@media screen and (max-width: 800px) {
     .common {
         width: 100%;
     }
@@ -133,16 +134,14 @@
         flex-direction: column;
         justify-content: center;
         align-items: center;
+        margin: 0% 1%;
     }
     .banner__img {
-        padding: 0 30px;
-        align-items: center;
-        width: 100%;
+        padding: 10% 10%;
         display: grid;
         align-self: center;
-
-        height: 50%;
-        width: 50%;
+        height: 100%;
+        width: 100%;
     }
     .about_info,
     .aboutMe {
@@ -159,8 +158,5 @@
     .about__info h1 {
         width: 100%;
         text-align: left;
-    }
-    .resume {
-        margin-bottom: 10%;
     }
 }

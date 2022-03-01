@@ -163,13 +163,16 @@
     }
 
     .typed_text {
-        font-size: 2rem;
+        font-size: 1.2rem;
         font-weight: 500;
     }
     .header_font_size {
-        font-size: 4rem;
+        font-size: 3rem;
         width: 100%;
         font-weight: 800;
         text-align: center;
+    }
+    .header__section {
+        padding: 5%;
     }
 }

@@ -27,20 +27,12 @@ export default function About() {
                 </div>
                 <div className={styles.row}>
                     <div className={styles.col_6}>
-                        <div className={styles.about__img}>
-                            <div className={styles.info__contacts}>
-                                <div className={styles.row}>
-                                    <div className={styles.col_6}>
-                                        <div className={styles.banner__img}>
-                                            <Image
-                                                className={styles.profile}
-                                                src={profile}
-                                                alt="profile pic"
-                                            />
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
+                        <div className={styles.banner__img}>
+                            <Image
+                                className={styles.profile}
+                                src={profile}
+                                alt="profile pic"
+                            />
                         </div>
                     </div>
                     <div className={styles.col_6}>
