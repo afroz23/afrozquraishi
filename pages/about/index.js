@@ -32,6 +32,8 @@ export default function About() {
                                 className={styles.profile}
                                 src={profile}
                                 alt="profile pic"
+                                width="280px"
+                                height="280px"
                             />
                         </div>
                     </div>
