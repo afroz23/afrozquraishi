@@ -15,12 +15,12 @@
 }
 
 .common {
-    width: 33.33333333333333%;
-    margin: 10px auto;
+    margin: 1rem;
     text-align: center;
 }
 .mainHeader {
     font-size: 32px;
+    margin-bottom: 10px;
     color: rgb(44, 44, 44);
 }
 .commonBorder {

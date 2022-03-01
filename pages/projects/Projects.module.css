@@ -13,15 +13,14 @@
     flex-direction: column;
     align-items: center;
     justify-content: center;
-    padding: 3rem 0.5rem;
+    padding: 1rem 0.5rem;
     width: 100%;
 }
-.common {
-    width: 33.33333333333333%;
 
+.common {
+    margin: 1rem;
     text-align: center;
 }
-
 .mainHeader {
     font-size: 32px;
     margin-bottom: 10px;

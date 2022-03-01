@@ -7,10 +7,9 @@ import Contact from "./contact/index";
 import Homepage from "../Components/Homepage";
 import Navbar from "../Components/Navbar";
 import Footer from "./Footer/index";
-import styles from "../styles/Home.module.css";
 export default function Home() {
     return (
-        <div className={styles.test}>
+        <div>
             <Head>
                 <title>Afroz Quraishi</title>
                 <meta
@@ -21,7 +20,7 @@ export default function Home() {
 
             <Navbar />
             <Homepage />
-
+            <hr />
             <About />
             <hr />
             <Experience />

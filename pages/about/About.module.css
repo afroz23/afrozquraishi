@@ -123,34 +123,44 @@
     color: #ff4321;
     font-weight: 800;
 }
-/* @media screen and (max-width: 768px) {
+@media screen and (max-width: 768px) {
     .common {
-        margin: 0;
-        padding: 0;
+        width: 100%;
     }
-    .row {
-        height: 100%;
+    .col_6 {
         width: 100%;
         display: flex;
         flex-direction: column;
         justify-content: center;
         align-items: center;
     }
-    .about .container {
+    .banner__img {
+        padding: 0 30px;
+        align-items: center;
+        width: 100%;
+        display: grid;
+        align-self: center;
+
+        height: 50%;
+        width: 50%;
+    }
+    .about_info,
+    .aboutMe {
         width: 100%;
     }
 
     .about__info_p1,
     .about__info_p2 {
-        height: 1;
+        height: 100%;
+        width: 100%;
         font-size: 1rem;
         text-align: left;
-    }
-    .resume {
-        margin-bottom: 20px;
     }
     .about__info h1 {
         width: 100%;
         text-align: left;
     }
-} */
+    .resume {
+        margin-bottom: 10%;
+    }
+}
