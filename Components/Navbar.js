@@ -29,8 +29,8 @@ export default function Navbar() {
                         className={styles.navbar__right}
                         style={{
                             transform: open
-                                ? "translateX(0px)"
-                                : "translateX(-500px)",
+                                ? "translateX(-500px)"
+                                : "translateX(0px)",
                         }}
                     >
                         <li className={styles.item_list}>
@@ -109,10 +109,14 @@ export default function Navbar() {
                             setOpen(!open);
                         }}
                     >
-                        {!open ? (
+                        {open ? (
                             <GiHamburgerMenu />
                         ) : (
-                            <ImCross style={{ color: "#ff4321" }} />
+                            <ImCross
+                                style={{
+                                    color: "#ff4321",
+                                }}
+                            />
                         )}
                     </div>
                 </div>
