@@ -8,7 +8,7 @@
 }
 
 .flexSystem {
-    width: 50%;
+    width: 100%;
     display: flex;
     flex-direction: row;
     justify-content: center;
@@ -17,16 +17,18 @@
 .backImage {
     height: 100%;
     background-repeat: no-repeat;
+    flex: 1;
+    padding-left: 20%;
+    align-self: start;
 }
 .container {
-    margin: 0 auto;
-}
-.contactSection {
+    flex: 2;
+    height: 100%;
+    width: 100%;
     display: flex;
     flex-direction: column;
-    justify-content: space-around;
-    padding: 1rem 0.5rem;
-    width: 100%;
+    justify-content: center;
+    align-items: center;
 }
 
 .common {
@@ -45,7 +47,9 @@
     width: 190px;
     margin: 10px auto;
 }
-
+.contactSection_logo {
+    margin: 3% 0%;
+}
 .contactSection_logo p a {
     margin-bottom: 20px;
     border: 2px solid #ff4321;
@@ -70,9 +74,8 @@
     font-size: 20px;
 }
 .contact_info {
-    width: 50%;
+    width: 60%;
     text-align: justify;
-    margin-bottom: 1rem;
 }
 
 .contactCircles {
@@ -103,21 +106,9 @@
     color: black;
 }
 
-.postionOfLinks {
-    height: 100%;
-    width: 100%;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-}
-
 @media only screen and (max-width: 800px) {
     .contact {
         height: 40vh;
-    }
-    .contactSection {
-        padding: 0;
     }
     .backImage {
         display: none;

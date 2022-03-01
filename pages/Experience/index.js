@@ -20,7 +20,9 @@ export default function Experience() {
                             <div className={styles.title}>WORK EXPERIENCE</div>
                             <div className={styles.border_left}>
                                 <div className={styles.experience_title}>
-                                    <FaSuitcase />
+                                    <div className={styles.suitcase}>
+                                        <FaSuitcase />
+                                    </div>
                                     <div>
                                         OnOrAll Startup, Software Engineer,
                                         Next.js
@@ -51,7 +53,9 @@ export default function Experience() {
                         <div className={styles.experience_content}>
                             <div className={styles.border_left}>
                                 <div className={styles.experience_title}>
-                                    <FaSuitcase />
+                                    <div className={styles.suitcase}>
+                                        <FaSuitcase />
+                                    </div>
                                     <div>
                                         GirlScript Summer of Code&apos;20, Open
                                         Source Contributor

@@ -1,11 +1,3 @@
-.header {
-    width: 100%;
-    min-height: 100vh;
-    background-color: #fff;
-    background-repeat: no-repeat;
-    background-size: cover;
-    overflow: hidden;
-}
 .navbar {
     box-sizing: border-box;
     width: 100%;
@@ -15,12 +7,7 @@
     box-shadow: 0 5px 20px rgba(0, 0, 0, 0.1);
 }
 
-.navbar,
-.about,
-.skills,
-.projects,
-.home,
-.contact {
+.navbar {
     display: flex;
     flex-wrap: wrap;
 }
@@ -75,38 +62,17 @@
     cursor: pointer;
     font-weight: 700;
 }
-
-/* Helpers */
 .container {
     width: 90%;
     margin: 0 auto;
 }
-.bgMain {
-    background: #fff;
-}
-
-.h_650 {
-    height: 400px;
-}
-.alignCenter {
-    align-items: center;
-}
-.justifyConter {
-    justify-content: center;
-}
-
 .burger {
-    height: 60%;
-    width: 10%;
     color: black;
-    font-size: 50%;
-    border: 2px solid black;
-    padding: 0.2%;
+    font-size: 2.5rem;
     cursor: pointer;
     display: none;
 }
-
-@media only screen and (max-width: 768px) {
+@media only screen and (max-width: 800px) {
     .navbar__right {
         display: none;
     }
@@ -118,46 +84,20 @@
         display: flex;
     }
     .navbar__container .navbar__right {
+        height: 100vh;
+        width: 50%;
+        margin-top: 55px;
+        padding-top: 10%;
         position: absolute;
         display: flex;
         flex-direction: column;
-        justify-content: center;
+        justify-content: flex-start;
         align-items: center;
+        row-gap: 15px;
+        background: rgba(255, 232, 232, 0.9);
+        transition: 0.7s ease-in-out;
+        transform: translateX(-500);
         top: 0;
         left: 0;
-        margin-top: -30px;
-        height: 100vh;
-        background: #fff;
-        width: 50%;
-        transition: all 5 ease-in-out;
-        transform: translateX(-500px);
     }
 }
-/* @media (max-width: 490px) {
-    .projects__box {
-        display: block;
-        height: 11rem;
-        width: 14rem;
-        padding: 10px;
-        margin-top: 20px;
-        margin-bottom: 10px;
-    }
-    .projects__box-header {
-        font-size: 15px;
-        font-weight: 500;
-        margin-bottom: 10px;
-    }
-    .projects__header {
-        display: flex;
-        flex-direction: column;
-        justify-content: center;
-        align-items: center;
-        margin: 0;
-    }
-    .projects__box-p {
-        font-size: 9px;
-    }
-    .commonIcons {
-        margin-bottom: 5px;
-    }
-} */

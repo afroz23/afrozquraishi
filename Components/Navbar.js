@@ -1,13 +1,11 @@
-import React, { useState } from "react";
-import { FaAlignJustify, FaCode } from "react-icons/fa";
+import { useState } from "react";
+import { FaCode } from "react-icons/fa";
 import styles from "./Navbar.module.css";
 import { Link, animateScroll as scroll } from "react-scroll";
 import { GiHamburgerMenu } from "react-icons/gi";
+import { ImCross } from "react-icons/im";
 export default function Navbar() {
-    const [isModal, setIsModal] = useState(false);
-    const contentClassname = isModal
-        ? `${styles["nav-open"]} ${styles.ModalContainer}`
-        : styles.ModalContainer;
+    const [open, setOpen] = useState(false);
 
     return (
         <div className={styles.navbar}>
@@ -27,7 +25,14 @@ export default function Navbar() {
                         </Link>
                     </div>
 
-                    <ul className={styles.navbar__right}>
+                    <ul
+                        className={styles.navbar__right}
+                        style={{
+                            transform: open
+                                ? "translateX(0px)"
+                                : "translateX(-500px)",
+                        }}
+                    >
                         <li className={styles.item_list}>
                             <Link
                                 activeClass="active"
@@ -98,7 +103,18 @@ export default function Navbar() {
                             </Link>
                         </li>
                     </ul>
-                    <GiHamburgerMenu className={styles.burger} />
+                    <div
+                        className={styles.burger}
+                        onClick={() => {
+                            setOpen(!open);
+                        }}
+                    >
+                        {!open ? (
+                            <GiHamburgerMenu />
+                        ) : (
+                            <ImCross style={{ color: "#ff4321" }} />
+                        )}
+                    </div>
                 </div>
             </div>
         </div>
