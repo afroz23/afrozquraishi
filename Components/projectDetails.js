@@ -32,7 +32,7 @@ export const projectDetails = [
         deployLink: "https://afroz23.github.io/Todo-App/",
         projectTitle: "Todo App",
         projectDetail:
-            "An advance Todo app built in ReactJS. You can Add, cross-off(complete), delete todo from the lists. You can also list all todos, completed todos, toggle all todos to Complete/Incomplete, and you can also delete all cross-off todos.",
+            "An advance Todo app built in ReactJS. You can Add, cross-off(complete), delete todo from the lists. You can also list all todos, completed todos, toggle all todos to Complete/ Incomplete, and you can also delete all cross-off todos.",
     },
     {
         projectLink: "https://github.com/afroz23/chat-room-app",

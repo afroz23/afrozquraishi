@@ -86,7 +86,7 @@
     color: #fff;
     transition: all 0.5s linear;
     cursor: pointer;
-    margin-bottom: 10%;
+    margin-bottom: 5%;
 }
 
 .contactCircles .para_links {
@@ -118,5 +118,16 @@
     }
     .contact_info {
         width: 80%;
+    }
+    .container {
+        height: 100%;
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        margin: 2%;
+    }
+    .contactCircles {
+        margin-bottom: 20%;
     }
 }

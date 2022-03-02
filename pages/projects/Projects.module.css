@@ -108,4 +108,15 @@
         max-width: 90%;
         margin: 2%;
     }
+    .card_p {
+        font-size: 90%;
+        text-align: left;
+    }
+    .card {
+        padding: 2%;
+        margin: 2%;
+    }
+    .card_header {
+        font-size: 1.3rem;
+    }
 }

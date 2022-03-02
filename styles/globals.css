@@ -23,3 +23,8 @@ body {
     font-family: "Poppins", sans-serif;
     scroll-behavior: smooth;
 }
+
+::selection {
+    background-color: #ff4321;
+    color: white;
+}

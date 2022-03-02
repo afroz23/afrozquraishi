@@ -28,9 +28,7 @@ export default function Navbar() {
                     <ul
                         className={styles.navbar__right}
                         style={{
-                            transform: open
-                                ? "translateX(-500px)"
-                                : "translateX(0px)",
+                            transform: open ? "translateX(0px)" : "",
                         }}
                     >
                         <li className={styles.item_list}>
@@ -110,13 +108,13 @@ export default function Navbar() {
                         }}
                     >
                         {open ? (
-                            <GiHamburgerMenu />
-                        ) : (
                             <ImCross
                                 style={{
                                     color: "#ff4321",
                                 }}
                             />
+                        ) : (
+                            <GiHamburgerMenu />
                         )}
                     </div>
                 </div>
