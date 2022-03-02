@@ -6,8 +6,8 @@ import contactImage from "../Images/contact.svg";
 
 export default function Contact() {
     return (
-        <div className={styles.contact}>
-            <Element name="contact">
+        <Element name="contact">
+            <div className={styles.contact}>
                 <div className={styles.common}>
                     <h1 className={styles.mainHeader}>Get In Touch</h1>
                     <div className={styles.commonBorder}></div>
@@ -87,8 +87,8 @@ export default function Contact() {
                         </div>
                     </div>
                 </div>
-            </Element>
-        </div>
+            </div>
+        </Element>
     );
 }
 

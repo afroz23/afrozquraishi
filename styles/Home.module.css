@@ -9,6 +9,7 @@
     width: 40%;
 }
 .row {
+    padding-top: 2%;
     display: flex;
     justify-content: center;
     align-items: center;

@@ -82,7 +82,7 @@ export default function Navbar() {
                         </li>
                         <li className={styles.item_list}>
                             <a
-                                href="https://afroziiitian.medium.com/"
+                                href="https://afroz23.medium.com/"
                                 target="_blank"
                             >
                                 Blog
