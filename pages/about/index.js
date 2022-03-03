@@ -2,7 +2,7 @@ import React, { useState } from "react";
 import styles from "./About.module.css";
 import Image from "next/image";
 import { Element } from "react-scroll";
-import profile from "../Images/profile.png";
+import afrozquraishi from "../Images/afrozquraishi.png";
 // import download from "js-file-download";
 // import axios from "axios";
 export default function About() {
@@ -29,9 +29,9 @@ export default function About() {
                     <div className={styles.col_6}>
                         <div className={styles.banner__img}>
                             <Image
-                                className={styles.profile}
-                                src={profile}
-                                alt="profile pic"
+                                className={styles.afrozquraishi}
+                                src={afrozquraishi}
+                                alt="afrozquraishi pic"
                                 width="280px"
                                 height="280px"
                             />
