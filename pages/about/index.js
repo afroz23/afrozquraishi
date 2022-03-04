@@ -29,7 +29,7 @@ export default function About() {
                     <div className={styles.col_6}>
                         <div className={styles.banner__img}>
                             <Image
-                                className={styles.afrozquraishi}
+                                className={styles.profile}
                                 src={afrozquraishi}
                                 alt="afrozquraishi pic"
                                 width="280px"

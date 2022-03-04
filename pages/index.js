@@ -22,8 +22,6 @@ export default function Home() {
                 />
             </Head>
 
-            <title>Home - TitleMetaNextjs</title>
-
             <Navbar />
             <Homepage />
             <hr />
