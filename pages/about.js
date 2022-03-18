@@ -42,7 +42,7 @@ export default function About() {
               <h1>Hello There!</h1>
               <div className={styles.aboutMe}>
                 <div className={styles.about__info_p1}>
-                  I&apos;m a prefinal year student pursuing an Integrated Post
+                  I&apos;m a prefinal year student pursuing Integrated Post
                   Graduate (B.Tech + M.Tech) in the Department of Information
                   Technology at{" "}
                   <span className={styles.about_text}>IIIT Gwalior</span>
@@ -59,9 +59,9 @@ export default function About() {
                   I&apos;m currently working at{" "}
                   <span className={styles.about_text}>Element Zero Labs</span>
                   (UK Startup, Convert business ideas into an application) and
-                  Actively Looking for Summer Internship 2022 in the SDE role.
-                  Apart from that, I use coding platforms like LeetCode and
-                  CodeChef to handle Data Structure and Algorithms challenges.
+                  Actively Looking for Summer Internship 2022 as SDE role. Apart
+                  from that, I use coding platforms like LeetCode and CodeChef
+                  to handle Data Structure and Algorithms challenges.
                 </div>
               </div>
 
