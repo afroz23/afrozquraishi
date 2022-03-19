@@ -5,16 +5,7 @@ import Typed from "react-typed";
 import { FaLinkedinIn, FaTwitter, FaInstagram } from "react-icons/fa";
 import { AiFillGithub } from "react-icons/ai";
 import profile from "../../public/Images/profile.svg";
-import { Spring } from "react-spring";
-import {
-  Link,
-  Button,
-  Element,
-  Events,
-  animateScroll as scroll,
-  scrollSpy,
-  scroller,
-} from "react-scroll";
+import { Link, Element, animateScroll as scroll } from "react-scroll";
 function Home() {
   return (
     <Element name="home">

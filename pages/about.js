@@ -59,9 +59,9 @@ export default function About() {
                   I&apos;m currently working at{" "}
                   <span className={styles.about_text}>Element Zero Labs</span>
                   (UK Startup, Convert business ideas into an application) and
-                  Actively Looking for Summer Internship 2022 as SDE role. Apart
-                  from that, I use coding platforms like LeetCode and CodeChef
-                  to handle Data Structure and Algorithms challenges.
+                  Actively Looking for Summer Internship 2022 as an SDE role.
+                  Apart from that, I use coding platforms like LeetCode and
+                  CodeChef to practice Data Structure and Algorithms problems.
                 </div>
               </div>
 
