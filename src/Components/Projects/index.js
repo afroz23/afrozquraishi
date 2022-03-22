@@ -5,7 +5,7 @@ import { GrDeploy } from "react-icons/gr";
 import { projectDetails } from "../projectDetails";
 import styles from "./Projects.module.css";
 
-export default function Projects() {
+const Projects = () => {
   return (
     <Element name="projects" className={styles.projects}>
       <div className={styles.projects_container}>
@@ -57,4 +57,6 @@ export default function Projects() {
       </div>
     </Element>
   );
-}
+};
+
+export default Projects;

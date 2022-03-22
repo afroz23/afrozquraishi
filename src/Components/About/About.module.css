@@ -13,6 +13,7 @@
   padding: 4%;
   width: 100%;
 }
+
 .common {
   width: 33.33333333333333%;
   margin: 10px auto;
@@ -131,6 +132,7 @@
   .common {
     width: 100%;
   }
+
   .col_6 {
     width: 100%;
     display: flex;
@@ -139,10 +141,12 @@
     align-items: center;
     margin: 0% 1%;
   }
+
   .about_info,
   .aboutMe {
     width: 100%;
   }
+
   .banner__img {
     margin: 5% 0%;
   }
@@ -154,6 +158,7 @@
     font-size: 1rem;
     text-align: left;
   }
+
   .about__info h1 {
     width: 100%;
     text-align: left;

@@ -7,7 +7,7 @@ import { FaLinkedinIn, FaTwitter, FaInstagram } from "react-icons/fa";
 import profile from "/public/Images/profile.svg";
 import styles from "./Home.module.css";
 
-function Home() {
+const Home = () => {
   return (
     <Element name="home">
       <div className={styles.container}>
@@ -97,6 +97,6 @@ function Home() {
       </div>
     </Element>
   );
-}
+};
 
 export default Home;

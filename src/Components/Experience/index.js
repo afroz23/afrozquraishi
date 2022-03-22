@@ -3,7 +3,7 @@ import { FaSuitcase } from "react-icons/fa";
 
 import styles from "./Experience.module.css";
 
-export default function Experience() {
+const Experience = () => {
   return (
     <Element name="experience" className={styles.experience}>
       <div className={styles.container}>
@@ -121,4 +121,6 @@ export default function Experience() {
       </div>
     </Element>
   );
-}
+};
+
+export default Experience;

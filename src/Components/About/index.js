@@ -1,4 +1,3 @@
-import React from "react";
 import Image from "next/image";
 import { Element } from "react-scroll";
 
@@ -6,7 +5,8 @@ import styles from "./About.module.css";
 import afrozquraishi from "/public/Images/afrozquraishi.png";
 // import download from "js-file-download";
 // import axios from "axios";
-export default function About() {
+
+const About = () => {
   // function handleDownload() {
   //     axios({
   //         url: "http://localhost:8000/download",
@@ -84,4 +84,6 @@ export default function About() {
       </div>
     </Element>
   );
-}
+};
+
+export default About;

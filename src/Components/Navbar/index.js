@@ -6,7 +6,7 @@ import { Link, animateScroll as scroll } from "react-scroll";
 
 import styles from "./Navbar.module.css";
 
-export default function Navbar() {
+const Navbar = () => {
   const [open, setOpen] = useState(false);
 
   return (
@@ -21,7 +21,6 @@ export default function Navbar() {
               offset={-55}
               duration={500}
               onClick={() => scroll.scrollToTop()}
-              to="home"
             >
               <FaCode className={styles.navbar__left_logo} />
             </Link>
@@ -120,4 +119,6 @@ export default function Navbar() {
       </div>
     </div>
   );
-}
+};
+
+export default Navbar;

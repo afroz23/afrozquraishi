@@ -1,10 +1,10 @@
 import Image from "next/image";
 import { Element } from "react-scroll";
 
+import ContactImage from "/public/Images/contact.svg";
 import styles from "./Contact.module.css";
-import contactImage from "/public/Images/contact.svg";
 
-export default function Contact() {
+const Contact = () => {
   return (
     <Element name="contact">
       <div className={styles.contact}>
@@ -15,10 +15,10 @@ export default function Contact() {
         <div className={styles.flexSystem}>
           <div className={styles.backImage}>
             <Image
-              src={contactImage}
               alt="contact Image"
               width="300px"
               height="300px"
+              src={ContactImage}
             />
           </div>
           <div className={styles.container}>
@@ -53,7 +53,6 @@ export default function Contact() {
                   rel="noopener noreferrer"
                   href="https://www.linkedin.com/in/afrozquraishi/"
                 >
-                  {" "}
                   LinkedIn
                 </a>
               </p>
@@ -65,7 +64,6 @@ export default function Contact() {
                   rel="noopener noreferrer"
                   href="https://twitter.com/AfrozQuraishi_"
                 >
-                  {" "}
                   Twitter
                 </a>
               </p>
@@ -86,6 +84,6 @@ export default function Contact() {
       </div>
     </Element>
   );
-}
+};
 
-// https://data.typeracer.com/pit/profile?user=afroz23
+export default Contact;
