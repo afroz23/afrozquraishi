@@ -53,6 +53,8 @@
   border: 1px solid #eee;
   border-radius: 8px;
   cursor: pointer;
+  position: relative;
+  z-index: -1;
 }
 .card:hover {
   transform: scale(0.999);

@@ -26,7 +26,7 @@
 .header__ul {
   list-style-type: none;
   display: flex;
-  justify-content: center;
+  justify-content: flex-start;
 }
 .header_anchor {
   color: #1f2235;
@@ -40,7 +40,7 @@
   font-size: 28px;
   align-items: center;
   justify-content: center;
-  margin: 0 10px;
+  margin-right: 20px;
   transition: all 0.5s linear;
   cursor: pointer;
 }
@@ -53,8 +53,9 @@
   font-size: 1.8rem;
   color: #333334;
   display: flex;
-  justify-content: center;
-  margin: 2rem auto;
+  justify-content: flex-start;
+  margin-top: 2rem;
+  margin-bottom: 2rem;
 }
 .more_about {
   width: 15rem;
@@ -67,7 +68,6 @@
   display: flex;
   align-items: center;
   justify-content: center;
-  margin: auto;
   transition: all 0.1s linear;
   cursor: pointer;
 }
@@ -89,18 +89,9 @@
   transition: all 0.2s linear;
 }
 
-.btn {
-  outline: none;
-  border: none;
-  color: #212121;
-  text-decoration: none;
-  display: flex;
-  justify-content: center;
-}
 .header__buttons {
   display: flex;
-  justify-content: center;
-  margin-bottom: 15px;
+  justify-content: flex-start;
 }
 .header__buttons a {
   text-decoration: none;
@@ -137,7 +128,10 @@
   height: 130%;
   width: 130%;
 }
-
+.header__section {
+  display: flex;
+  flex-direction: column;
+}
 @media only screen and (max-width: 800px) {
   .header__content,
   .container {
