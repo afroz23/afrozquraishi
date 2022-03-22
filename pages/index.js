@@ -1,12 +1,14 @@
 import React from "react";
 import Head from "next/head";
-import About from "./about";
-import Projects from "./projects";
-import Experience from "./experience";
-import Contact from "./contact";
-import Homepage from "../src/Components/Homepage";
+
+import About from "../src/Components/About";
+import Projects from "../src/Components/Projects";
+import Experience from "../src/Components/Experience";
+import Contact from "../src/Components/Contact";
+import Homepage from "../src/Components/Home";
 import Navbar from "../src/Components/Navbar";
-import Footer from "./footer";
+import Footer from "../src/Components/Footer";
+
 export default function Home() {
   return (
     <div>
