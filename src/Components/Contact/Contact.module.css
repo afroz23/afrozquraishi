@@ -32,7 +32,6 @@
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  padding: 1rem 0.5rem;
 }
 
 .common {
@@ -60,14 +59,14 @@
 .contactSection_logo p a {
   margin-bottom: 20px;
   border: 2px solid #ff4321;
-  height: 50px;
-  width: 150px;
+  height: 55px;
+  width: 190px;
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
   border-radius: 20px;
-  font-size: 20px;
+  font-size: 23px;
   transition: all 0.4s ease-in-out;
 }
 
@@ -78,7 +77,7 @@
   border: 2px solid white;
   background-color: #ff4321;
   color: white;
-  font-size: 20px;
+  font-size: 23px;
 }
 
 .contact_info {

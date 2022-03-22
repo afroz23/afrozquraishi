@@ -27,10 +27,16 @@ const Contact = () => {
               LinkedIn are the best way to communicate though. You can reach out
               to me any time.
             </p>
+            <div style={{ marginTop: "10px" }}>
+              Email Id: afroziiitian@gmail.com
+            </div>
             <div className={styles.contactSection_logo}>
               <p>
-                <a className={styles.link} href="mailto:afroziiitian@gmail.com">
-                  Send email
+                <a
+                  className={styles.link}
+                  href="https://www.linkedin.com/in/afrozquraishi/"
+                >
+                  Let&apos;s Connect
                 </a>
               </p>
             </div>

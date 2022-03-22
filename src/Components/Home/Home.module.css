@@ -31,24 +31,6 @@
   justify-content: flex-start;
 }
 
-.header_anchor {
-  color: #1f2235;
-}
-
-.header__ul .header_anchor {
-  width: 50px;
-  height: 50px;
-  border: 2px solid #ff4321;
-  border-radius: 50%;
-  display: flex;
-  font-size: 28px;
-  align-items: center;
-  justify-content: center;
-  margin-right: 20px;
-  transition: all 0.5s linear;
-  cursor: pointer;
-}
-
 .header_font_size {
   padding-top: 20%;
   font-size: 3.5rem;
@@ -61,7 +43,7 @@
   display: flex;
   justify-content: flex-start;
   margin-top: 2rem;
-  margin-bottom: 2rem;
+  margin-bottom: 1rem;
 }
 
 .more_about {
@@ -87,26 +69,45 @@
   cursor: pointer;
 }
 
+.header_anchor {
+  color: white;
+  background-color: #ff4321;
+}
+
+.header__ul .header_anchor {
+  width: 49px;
+  height: 49px;
+  border: 1px solid #ff4321;
+  border-radius: 49%;
+  display: flex;
+  font-size: 27px;
+  align-items: center;
+  justify-content: center;
+  margin-right: 19px;
+  transition: all -1.5s linear;
+  cursor: pointer;
+}
+
 .header__ul .header_anchor:hover {
-  background: #ff4321;
+  background-color: #ff5757b6;
   border: 2px solid transparent;
   transition: all 0.2s linear;
   cursor: pointer;
 }
 
 .header__ul .header_anchor:hover .headerIcon {
-  color: #edf2fc;
   transition: all 0.2s linear;
 }
 
 .header__buttons {
   display: flex;
   justify-content: flex-start;
+  margin-bottom: 1rem;
+  margin-top: 1rem;
 }
 
 .header__buttons a {
   text-decoration: none;
-  margin-bottom: 15px;
 }
 
 .btn :hover {
