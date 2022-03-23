@@ -1,5 +1,6 @@
 import Image from "next/image";
 import { Element } from "react-scroll";
+import Button from "../../Components/Button";
 
 import styles from "./About.module.css";
 import afrozquraishi from "/public/Images/afrozquraishi.png";

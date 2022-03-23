@@ -1,12 +1,12 @@
 import Head from "next/head";
 
-import About from "../src/Components/About";
-import Projects from "../src/Components/Projects";
-import Experience from "../src/Components/Experience";
-import Contact from "../src/Components/Contact";
-import Homepage from "../src/Components/Home";
-import Navbar from "../src/Components/Navbar";
-import Footer from "../src/Components/Footer";
+import About from "../src/PageComponents/About";
+import Projects from "../src/PageComponents/Projects";
+import Experience from "../src/PageComponents/Experience";
+import Contact from "../src/PageComponents/Contact";
+import Homepage from "../src/PageComponents/Home";
+import Navbar from "../src/PageComponents/Navbar";
+import Footer from "../src/PageComponents/Footer";
 
 export default function Home() {
   return (
