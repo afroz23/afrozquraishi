@@ -193,4 +193,9 @@
   .header__section {
     padding: 10% 5% 5% 5%;
   }
+  .header__ul,
+  .header__buttons,
+  .typed_text {
+    justify-content: center;
+  }
 }
