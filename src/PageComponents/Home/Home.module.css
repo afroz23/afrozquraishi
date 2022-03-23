@@ -60,7 +60,7 @@
   font-size: 27px;
   align-items: center;
   justify-content: center;
-  margin-right: 19px;
+  margin-right: 5%;
   transition: all -1.5s linear;
   cursor: pointer;
 }
@@ -171,5 +171,8 @@
   .header__buttons,
   .typed_text {
     justify-content: center;
+  }
+  .header__ul {
+    margin-left: 4%;
   }
 }
