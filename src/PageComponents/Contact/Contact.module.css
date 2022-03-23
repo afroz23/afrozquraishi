@@ -52,34 +52,6 @@
   margin: 10px auto;
 }
 
-.contactSection_logo {
-  margin: 3% 0%;
-}
-
-.contactSection_logo p a {
-  margin-bottom: 20px;
-  border: 2px solid #ff4321;
-  height: 55px;
-  width: 190px;
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
-  border-radius: 20px;
-  font-size: 23px;
-  transition: all 0.4s ease-in-out;
-}
-
-.contactSection_logo p a:hover {
-  color: #ff4321;
-  transition: all 0.4s ease-in-out;
-  text-decoration: none;
-  border: 2px solid white;
-  background-color: #ff4321;
-  color: white;
-  font-size: 23px;
-}
-
 .contact_info {
   width: 60%;
   text-align: justify;

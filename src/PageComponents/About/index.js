@@ -66,19 +66,19 @@ const About = () => {
                   CodeChef to practice Data Structure and Algorithms problems.
                 </div>
               </div>
-
-              <div className={styles.resume}>
-                <p>
-                  <a
-                    className={styles.link}
-                    href="https://drive.google.com/file/d/1z-wjgOCZORI6fIPOa7aBESVSohO_UC0M/view?usp=sharing"
-                    target="_blank"
-                    rel="noreferrer"
-                  >
-                    Resume
-                  </a>
-                </p>
-              </div>
+              <Button
+                Width="10rem"
+                FontSize="20px"
+                style={{ marginTop: "12%", padding: "3%" }}
+              >
+                <a
+                  href="https://drive.google.com/file/d/1z-wjgOCZORI6fIPOa7aBESVSohO_UC0M/view?usp=sharing"
+                  target="_blank"
+                  rel="noreferrer"
+                >
+                  Resume
+                </a>
+              </Button>
             </div>
           </div>
         </div>

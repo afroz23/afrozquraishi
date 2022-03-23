@@ -1,8 +1,9 @@
 import Image from "next/image";
 import Typed from "react-typed";
 import { AiFillGithub } from "react-icons/ai";
-import { Link, Element, animateScroll as scroll } from "react-scroll";
-import { FaLinkedinIn, FaTwitter, FaInstagram } from "react-icons/fa";
+import { Link, Element } from "react-scroll";
+import { FaLinkedinIn, FaTwitter, FaMediumM } from "react-icons/fa";
+import Button from "../../Components/Button";
 
 import profile from "/public/Images/profile.svg";
 import styles from "./Home.module.css";
@@ -35,17 +36,18 @@ const Home = () => {
                 ></Typed>
 
                 <div className={styles.header__buttons}>
-                  <Link
-                    activeClass="active"
-                    spy={true}
-                    smooth={true}
-                    offset={-55}
-                    duration={500}
-                    to="about"
-                    className={styles.more_about}
-                  >
-                    More About me
-                  </Link>
+                  <Button Width="15rem" Height="4rem" FontSize="25px">
+                    <Link
+                      activeClass="active"
+                      spy={true}
+                      smooth={true}
+                      offset={-55}
+                      duration={500}
+                      to="about"
+                    >
+                      More About me
+                    </Link>
+                  </Button>
                 </div>
                 <div className={styles.header__ul}>
                   <a
@@ -76,9 +78,9 @@ const Home = () => {
                     className={styles.header_anchor}
                     target="_blank"
                     rel="noopener noreferrer"
-                    href="https://www.instagram.com/afrozquraishi_/"
+                    href="https://afroz23.medium.com/"
                   >
-                    <FaInstagram className={styles.headerIcon} />
+                    <FaMediumM className={styles.headerIcon} />
                   </a>
                 </div>
               </div>

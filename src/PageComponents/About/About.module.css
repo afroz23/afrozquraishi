@@ -79,29 +79,6 @@
   align-items: flex-start;
 }
 
-.resume p a {
-  margin-top: 20px;
-  border: 2px solid #ff4321;
-  height: 50px;
-  width: 220px;
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
-  border-radius: 20px;
-  font-size: 20px;
-  transition: all 0.9s ease-in-out;
-}
-
-.resume p a:hover {
-  transition: all 0.4s ease-in-out;
-  text-decoration: none;
-  border: 2px solid white;
-  background-color: #ff4321;
-  color: white;
-  font-size: 20px;
-}
-
 .profile {
   border-radius: 50%;
   position: fixed;
@@ -122,10 +99,6 @@
 .about_text {
   color: #ff4321;
   font-weight: 800;
-}
-
-.resume {
-  padding: 12% 0%;
 }
 
 @media only screen and (max-width: 800px) {

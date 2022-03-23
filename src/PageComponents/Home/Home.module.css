@@ -46,29 +46,6 @@
   margin-bottom: 1rem;
 }
 
-.more_about {
-  width: 15rem;
-  height: 4rem;
-  font-size: 25px;
-  margin-top: 10px;
-  color: #1f2235;
-  border: 2px solid #ff4321;
-  border-radius: 20px;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  transition: all 0.1s linear;
-  cursor: pointer;
-}
-
-.more_about:hover {
-  background: #ff4321;
-  border: 2px solid transparent;
-  color: #edf2fc;
-  transition: all 0.5s linear;
-  cursor: pointer;
-}
-
 .header_anchor {
   color: white;
   background-color: #ff4321;
@@ -89,7 +66,7 @@
 }
 
 .header__ul .header_anchor:hover {
-  background-color: #ff5757b6;
+  background-color: #ffac9d;
   border: 2px solid transparent;
   transition: all 0.2s linear;
   cursor: pointer;
@@ -190,9 +167,6 @@
     text-align: center;
   }
 
-  .header__section {
-    padding: 10% 5% 5% 5%;
-  }
   .header__ul,
   .header__buttons,
   .typed_text {

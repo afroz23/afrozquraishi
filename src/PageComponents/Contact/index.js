@@ -3,6 +3,7 @@ import { Element } from "react-scroll";
 
 import ContactImage from "/public/Images/contact.svg";
 import styles from "./Contact.module.css";
+import Button from "../../Components/Button";
 
 const Contact = () => {
   return (
@@ -30,16 +31,16 @@ const Contact = () => {
             <div style={{ marginTop: "10px" }}>
               Email Id: afroziiitian@gmail.com
             </div>
-            <div className={styles.contactSection_logo}>
-              <p>
-                <a
-                  className={styles.link}
-                  href="https://www.linkedin.com/in/afrozquraishi/"
-                >
-                  Let&apos;s Connect
-                </a>
-              </p>
-            </div>
+            <Button
+              Height="55px"
+              Width="190px"
+              FontSize="23px"
+              style={{ margin: "3% 0%" }}
+            >
+              <a href="https://www.linkedin.com/in/afrozquraishi/">
+                Let&apos;s Connect
+              </a>
+            </Button>
             <div className={styles.contactCircles}>
               <p className={styles.para_links}>
                 <a
