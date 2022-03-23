@@ -2,7 +2,7 @@ import { Element } from "react-scroll";
 import { FaGithub } from "react-icons/fa";
 import { GrDeploy } from "react-icons/gr";
 
-import { projectDetails } from "../../Content/projectDetails";
+import { projectDetails } from "../projectDetails";
 import styles from "./Projects.module.css";
 
 const Projects = () => {
