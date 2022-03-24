@@ -27,22 +27,19 @@ body {
   overflow-y: scroll;
   font-family: "Poppins", sans-serif;
 }
-
 body::-webkit-scrollbar-track {
   padding: 2px 10px;
   background-color: #ff8a75;
 }
 
 body::-webkit-scrollbar {
-  width: 25px;
-  padding: 200px 10px;
+  width: 15px;
 }
 
 body::-webkit-scrollbar-thumb {
-  border-radius: 9px;
+  border-radius: 7px;
   background-color: #ff4321;
 }
-
 ::selection {
   background-color: #ff4321;
   color: white;
