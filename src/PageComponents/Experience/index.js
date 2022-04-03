@@ -99,7 +99,7 @@ const Experience = () => {
                 <div className={styles.li}>ALGORITHMS & DATA STRUCTURES</div>
                 <div className={styles.li}>FRONTEND DEVELOPMENT</div>
                 <div className={styles.skill}>
-                  HTML, CSS, Reactjs+Redux, Nextjs, TailwindCSS, Reactstrap,
+                  HTML, CSS, Reactjs+Redux, Nextjs, TypeScript, TailwindCSS, Reactstrap,
                   React Icons, Chartjs
                 </div>
                 <div className={styles.li}>BACKEND DEVELOPMENT</div>
@@ -112,7 +112,8 @@ const Experience = () => {
                 <div className={styles.skill}>C++, Javascript</div>
                 <div className={styles.li}>TOOLS & SERVICES</div>
                 <div className={styles.skill}>
-                  Git, Github, Visual Studio, Linux, Postman, Heroku, Netlify
+                  Git, Github, Visual Studio + Vim, Linux, Postman, Heroku,
+                  Netlify
                 </div>
               </ul>
             </div>
